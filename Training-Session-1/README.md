@@ -3,6 +3,32 @@ Training-Session-1
 
 This repository provides examples which can be considered under Training Session #1 - Getting Started.
 
+<ol>
+  <li>Introduction to Backbone.JS
+    <ol>
+      <li>What you should know? & Why?</li>
+      <li>Quick definition</li>
+      <li>Overview</li>
+      <li>Why Backbone.JS?</li>
+      <li>Where should I use it?</li>
+      <li>What is SPA?</li>
+    </ol>
+  </li>
+  <li>Knowing Backbone’s Backbone
+    <ol>
+      <li>Design Patterns</li>
+    </ol>
+  </li>
+  <li>How to use Backbone.JS
+    <ol>
+      <li>How Backbone.JS works?</li>
+      <li>Adding Backbone.JS to your web apps</li>
+      <li>JavaScript console with reference to Backbone.JS</li>
+    </ol>
+  </li>
+</ol>
+
+  
 Licensing
 =========
 
