@@ -22,7 +22,7 @@ Contributors
 
 <ul>
   <li><a href="in.linkedin.com/in/hegdeashwin" target="_blank">Ashwin Hegde</a></li>
-  <li>
+  <li style="list-style: none;">
     <ul>
       <li>Email me at: <a href="mailto:ashwin.hegde3@gmail.com">ashwin.hegde3@gmail.com</a></li>
     </ul>
