@@ -1,7 +1,7 @@
-Training-Session-1
-==================
+Training Session 1: Getting Started
+===================================
 
-This repository provides examples which can be considered under Training Session #1 - Getting Started.
+This training session includes the following listed out table of contents
 
 <ol>
   <li>Introduction to Backbone.JS
