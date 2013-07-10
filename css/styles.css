@@ -1,0 +1,42 @@
+#contacts { width:1300px; margin:auto; }
+.contact-container { width:335px; padding:10px; border:1px solid #aaa; margin:0 10px 10px 0; position:relative; float:left; font-family:sans-serif; color:#333; background-color:#eee; }
+.contact-container h1 { margin:0; font-weight:normal; }
+.contact-container h1 span { float:right; font-size:14px; line-height:24px; font-weight:normal; }
+.contact-container img { border-width:1px; border-style:solid; border-color:#fff; border-right-color:#aaa; border-bottom-color:#aaa; margin-right:10px; float:left; }
+.contact-container div { margin-bottom:24px; font-size:14px; }
+.contact-container a { color:#333;}
+.contact-container dl { margin:0; float:left; font-size:14px; }
+.contact-container dt, .contact-container dd { margin:0; float:left; }
+.contact-container dt { width:50px; clear:left; }
+.contact-container button { margin-top:10px; float:right; }
+
+header { margin-bottom:10px; }
+header:after { content:""; display:block; height:0; visibility:hidden; clear:both; font-size:0; line-height:0; }
+
+#filter { float:left; }
+#showForm { float:right; }
+#addContact { display:none; width:466px; float:right; clear:both; font-family:sans-serif; font-size:14px; }
+#addContact label { width:60px; margin-right:10px; text-align:right; line-height:25px; }
+#addContact label, #addContact input { display:block; margin-bottom:10px; float:left; }
+#address { width:380px; margin-left:2px; }
+#addContact label[for="name"], #addContact label[for="address"], #addContact label[for="tel"] { clear:both; }
+#addContact button { display:block; margin:10px 10px 0 0; float:right; clear:both; }
+
+.contact-container input, .contact-container select { display:block; margin:0; float:left; }
+.contact-container .name, .contact-container .address { clear:left; }
+.contact-container input { margin:0 10px 3px 0; }
+.contact-container .address { width:395px; margin-right:0; }
+.contact-container .tel { width:90px; }
+.contact-container form button { margin:5px 0 0; }
+
+body { font-family: Arial; }
+
+.title {
+	color: #356AA0;
+	font-size: 2em;
+}
+
+.note {
+	font-size: 1em;
+	color: #205081;
+}
