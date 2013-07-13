@@ -1,7 +1,7 @@
 Structuring your web apps via Backbone.JS
 =========================================
 
-This training kit has been developed for those who want to learn the basics concepts of Backbone.JS.
+This training kit has been developed for those who want to learn the basics of Backbone.JS.
 
 Training kit includes
 =====================
@@ -31,7 +31,7 @@ Contributors
 Licensing
 =========
 
-This file is part of Training kit.
+These files are part of training kit.
 
 This training kit is free documentation: you can re-distribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
