@@ -3,9 +3,15 @@ Structuring your web apps via Backbone.JS
 
 This training kit has been developed for those who want to learn the basics of Backbone.JS.
 
+Prerequisites
+=============
+<ul>
+  <li>The basic understanding of JavaScript</li>
+  <li>The basic understanding of jQuery</li>
+</ul>
+
 Training kit includes
 =====================
-
 <ul>
   <li>Training Session 1: Getting Started</li>
   <li>Training Session 2: Understanding Backbone View.</li>
@@ -15,6 +21,12 @@ Training kit includes
   <li>Training Session 6: Understanding Backbone's Backbone Integration.</li>
   <li>Training Session 7: Understanding Backbone Router</li>
   <li>Training Session 8: Architecture &amp; Server side workflow</li>
+</ul>
+
+Recommended Text Editor
+=======================
+<ul>
+  <li>Sublime Text 2 or above</li>
 </ul>
 
 Contributors
