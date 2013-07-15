@@ -1,32 +1,42 @@
 Structuring your web apps via Backbone.JS
 =========================================
+This training kit has been developed for those who already have the basic knowledge of JavaScript & jQuery; 
+As Backbone.JS is entirely written in JavaScript. 
 
-This training kit has been developed for those who want to learn the basics of Backbone.JS.
+This training kit will teach you the basics of Backbone.JS and introduction to advanced part.
 
-Prerequisites
-=============
-<ul>
-  <li>The basic understanding of JavaScript</li>
-  <li>The basic understanding of jQuery</li>
+
+Prerequisites arranged as per the priority 
+==========================================
+<ul>  
+  <li>JavaScript</li>  
+  <li>jQuery</li>
+  <li>Underscore</li>
+  <li>HTML & CSS</li>
 </ul>
 
 Training kit includes
 =====================
 <ul>
   <li>Training Session 1: Getting Started</li>
-  <li>Training Session 2: Understanding Backbone View.</li>
-  <li>Training Session 3: Understanding Backbone Events.</li>
-  <li>Training Session 4: Understanding Backbone Model.</li>
-  <li>Training Session 5: Understanding Backbone Collection.</li>
-  <li>Training Session 6: Understanding Backbone's Backbone Integration.</li>
-  <li>Training Session 7: Understanding Backbone Router</li>
+  <li>Training Session 2: Backbone View & Events</li>
+  <li>Training Session 4: Backbone Model.</li>
+  <li>Training Session 5: Backbone Collection.</li>
+  <li>Training Session 6: Backbone's Backbone Integration.</li>
+  <li>Training Session 7: Backbone Router</li>
   <li>Training Session 8: Architecture &amp; Server side workflow</li>
 </ul>
 
-Recommended Text Editor
+Recommended text editor
 =======================
+You can used any text editor which ever you are comfortable with on any operating systems.
+But when it comes to JavaScript based project I personally recommend the following editors
+as per the priority.
 <ul>
   <li>Sublime Text 2 or above</li>
+  <li>Notepad++</li>  
+  <li>Adobe Dreamweaver</li>
+  <li>Microsoft Visual Studio</li>
 </ul>
 
 Contributors
