@@ -6,17 +6,18 @@ This training session includes the following listed out table of contents
 <ol>
   <li>Introduction to Backbone.JS
     <ol>
-      <li>What you should know? & Why?</li>
+      <li>Prerequisities</li>
       <li>Quick definition</li>
-      <li>Overview</li>
-      <li>Why Backbone.JS?</li>
+      <li>Quick overview</li>
+      <li>Why do we need it?</li>
       <li>Where should I use it?</li>
       <li>What is SPA?</li>
     </ol>
   </li>
   <li>Knowing Backbone’s Backbone
     <ol>
-      <li>Design Patterns</li>
+      <li>Overview on general MVC</li>
+      <li>Difference between general MVC &amp; Backbone's MVC (MV*)</li>      
     </ol>
   </li>
   <li>How to use Backbone.JS

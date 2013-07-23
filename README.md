@@ -12,19 +12,20 @@ Prerequisites arranged as per the priority
   <li>JavaScript</li>  
   <li>jQuery</li>
   <li>Underscore</li>
-  <li>HTML & CSS</li>
+  <li>HTML &amp; CSS</li>
+  <li>Basic understanding of web scripting</li>
 </ul>
 
 Training kit includes
 =====================
 <ul>
   <li>Training Session 1: Getting Started</li>
-  <li>Training Session 2: Backbone View & Events</li>
-  <li>Training Session 4: Backbone Model.</li>
-  <li>Training Session 5: Backbone Collection.</li>
-  <li>Training Session 6: Backbone's Backbone Integration.</li>
-  <li>Training Session 7: Backbone Router</li>
-  <li>Training Session 8: Architecture &amp; Server side workflow</li>
+  <li>Training Session 2: Backbone View &amp; Events</li>
+  <li>Training Session 3: Backbone Model.</li>
+  <li>Training Session 4: Backbone Collection.</li>
+  <li>Training Session 5: Backbone's Backbone Integration.</li>
+  <li>Training Session 6: Backbone Router</li>
+  <li>Training Session 7: Architecture &amp; Server side workflow</li>
 </ul>
 
 Recommended text editor
@@ -35,8 +36,8 @@ as per the priority.
 <ul>
   <li>Sublime Text 2 or above</li>
   <li>Notepad++</li>  
-  <li>Adobe Dreamweaver</li>
   <li>Microsoft Visual Studio</li>
+  <li>Adobe Dreamweaver</li>
 </ul>
 
 Contributors
