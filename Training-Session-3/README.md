@@ -1,4 +1,4 @@
-Training Session 3 - <br>Understanding Backbone View, Events &amp; Templates
+Training Session 3 - <br>Understanding Backbone <br>View, Events &amp; Templates
 ============================================================================
 
 This training session includes the following listed out table of contents
