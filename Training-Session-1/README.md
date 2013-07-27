@@ -1,6 +1,5 @@
-Training Session 1
-==================
-Getting Started
+Training Session 1 - Getting Started
+====================================
 
 This training session includes the following listed out table of contents
 
