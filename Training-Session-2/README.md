@@ -1,18 +1,30 @@
-Training Session 2: Understanding Backbone View
-===============================================
+Training Session 2: Understanding Backbone Model
+================================================
 
 This training session includes the following listed out table of contents
 
 <ol>
-  <li>Introduction to Backbone View
+  <li>Understanding Backbone Model
     <ol>
-      <li>What is Backbone view?</li>
-      <li>Creating a Backbone view</li>
-      <li>Backbone view properties</li>
+      <li>What is Backbone Model?</li>
+      <li>Create a Model class</li>
+      <li>Setting default attributes for the Model</li>
+      <li>Getting &amp; setting attributes</li>
+      <li>Removing attributes</li>
+      <li>Model &amp; attributes id</li>
+      <li>Operations on attributes &amp; model</li>      
+    </ol>
+  </li>
+  <li>Advance part of Backbone Model
+    <ol>
+      <li>Service URL</li>
+      <li>Operations on data</li>
+      <li>Server communication</li>     
     </ol>
   </li>
 </ol>
 
+  
 Licensing
 =========
 
