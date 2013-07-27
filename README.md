@@ -23,9 +23,8 @@ Training kit includes
   <li>Training Session 2: Backbone Model.</li>
   <li>Training Session 3: Backbone View, Events &amp; Templates</li>
   <li>Training Session 4: Backbone Collection.</li>
-  <li>Training Session 5: Backbone's Backbone Integration.</li>
-  <li>Training Session 6: Backbone Router</li>
-  <li>Training Session 7: Architecture &amp; Server side workflow</li>
+  <li>Training Session 5: Backbone Router</li>
+  <li>Training Session 6: Architecture &amp; Server side workflow</li>
 </ul>
 
 Recommended text editor
