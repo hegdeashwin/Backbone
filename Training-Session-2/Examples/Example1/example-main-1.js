@@ -1,11 +1,11 @@
 (function() {
 	/*
-		The goal of this file is to provide the basic understanding 
+		The goal of this file is to provide the basic understanding
 		1. Create a Model class.
 		2. Setting default attributes for the Model.
-		3. Getting &amp; setting attributes.
+		3. Getting & setting attributes.
 		4. Removing attributes.
-		
+
 		How to run this example.
 		1. Open Example-1.html in Google Chrome browser.
 		2. Press F12, go to console tab.
@@ -15,8 +15,8 @@
 	/*
 		Creating a new model called MasterModel by extending Backbone.Model class.
 		Syntax: Backbone.Model.extend(properties, [classProperties])
-	*/	
-	var MasterModel = Backbone.Model.extend({		
+	*/
+	var MasterModel = Backbone.Model.extend({
 		/*
 			This initialize function will get called when the model is first created.
 		*/
@@ -44,7 +44,7 @@
 	*/
 	console.log("Model data: ");
 	console.log(masterModel);
-	
+
 	/*
 		Getting the default values from attributes.
 	*/

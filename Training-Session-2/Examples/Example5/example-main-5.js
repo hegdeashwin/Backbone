@@ -1,12 +1,10 @@
 (function() {
 	/*
 		The goal of this file is to provide the basic understanding
-		1. Services URL.
-		2. Operations on data.
-		3. Server communication.
+		1. Passing data to Services URL.
 
 		How to run this example.
-		1. Open Example-3.html in Google Chrome browser.
+		1. Open Example-5.html in Google Chrome browser.
 		2. Press F12, go to console tab.
 		3. See the message get displayed on that console tab.
 	*/
@@ -16,9 +14,11 @@
 		Syntax: Backbone.Model.extend(properties, [classProperties])
 	*/
 	var MasterModel = Backbone.Model.extend({
+
 		url: function() {
-			return 'http://maps.googleapis.com/maps/api/directions/json?origin=Pune&destination=Mumbai&sensor=false'
+			return 'http://maps.googleapis.com/maps/api/directions/' + this.get('dataFormat') +'?origin='+this.get('origin')+'&destination='+this.get('destination')+'&sensor='+this.get('sensor')
 		},
+
 		parse: function(response) {
 			console.log("Parse response: ");
 			console.log(response);
@@ -27,7 +27,12 @@
 		}
 	});
 
-	var masterModel = new MasterModel();
+	var masterModel = new MasterModel({
+		"dataFormat": "json",
+		"origin": "Pune",
+		"destination": "Mumbai",
+		"sensor": "false"
+	});
 	console.log(masterModel);
 
 	/*
@@ -42,17 +47,5 @@
 			console.log("Some error triggered while accessing Google service api.");
 		}
 	});
-
-	/*
-		Save data from Google service api using Backbone Model save method.
-		But, this won't work because Google service api is not supporting POST, PUT operations.
-	*/
-	// masterModel.save({});
-
-	/*
-		Delete data from Google service api using Backbone Model destroy method.
-		But, this won't work because Google service api is not supporting DELETE operation.
-	*/
-	// masterModel.destroy({});
 
 })();

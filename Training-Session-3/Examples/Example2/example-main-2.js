@@ -26,7 +26,9 @@
 			Event hash.
 		*/
 		events: {
-			'click input[type=submit]': 'submitForm'
+			'click input[type=submit]': 'submitForm',
+			'click input[type=reset]': 'resetForm',
+			'click input[type=button]': 'buttonForm'
 		},
 
 		/*
@@ -34,6 +36,14 @@
 		*/
 		submitForm: function() {
 			console.log("Submit Button got clicked. Time to validate form data.");
+		},
+
+		resetForm: function() {
+			console.log("Reset Button got clicked. Time to reset form data.");
+		},
+
+		buttonForm: function() {
+			console.log("Won't able to access this function. This is out of view scope.");
 		},
 
 		/*

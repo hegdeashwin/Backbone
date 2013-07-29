@@ -1,8 +1,8 @@
 (function() {
 	/*
-		The goal of this file is to provide the basic understanding 
-		1. Templates.		
-		
+		The goal of this file is to provide the basic understanding
+		1. Templates.
+
 		How to run this example.
 		1. Open Example-5.html in Google Chrome browser.
 		2. Press F12, go to console tab.
@@ -12,14 +12,14 @@
 	/*
 		Creating a new View called MasterView by extending Backbone.View class.
 		Syntax: Backbone.View.extend(properties, [classProperties])
-	*/	
-	var MasterView = Backbone.View.extend({		
+	*/
+	var MasterView = Backbone.View.extend({
 		/*
 			This initialize function will get called when the view is first created.
 		*/
 		initialize: function() {
 			/*
-				Gets called if and only if the object triggers an `customEvent` event and 
+				Gets called if and only if the object triggers an `customEvent` event and
 				passes a message through it. If message is not passed; it will show `undefined.
 			*/
 			this.on('customEvent', this.doSomething, this);
