@@ -1,37 +1,73 @@
 (function() {
 	/*
 		The goal of this file is to provide the basic understanding
-		1. Templates.
+		1. Setting attributes to be used in url parameters.
 
 		How to run this example.
-		1. Open Example-5.html in Google Chrome browser.
+		1. Open Example-1.html in Google Chrome browser.
 		2. Press F12, go to console tab.
 		3. See the message get displayed on that console tab.
 	*/
+
+	var MasterModel = Backbone.Model.extend({
+		url: function() {
+			return 'http://maps.googleapis.com/maps/api/directions/json?origin='+this.get('origin')+'&destination='+this.get('destination')+'&sensor='+this.get('sensor');
+		},
+		parse: function(response) {
+			var object = {};
+
+			_.each(response.routes, function(data){
+				object = _.object([
+					"ne_lat","ne_lng","sw_lat","sw_lng"
+				],[
+					data.bounds.northeast.lat,
+					data.bounds.northeast.lng,
+					data.bounds.southwest.lat,
+					data.bounds.southwest.lng
+				]);
+			});
+
+			return object;
+		}
+	});
 
 	/*
 		Creating a new View called MasterView by extending Backbone.View class.
 		Syntax: Backbone.View.extend(properties, [classProperties])
 	*/
 	var MasterView = Backbone.View.extend({
-		/*
-			This initialize function will get called when the view is first created.
-		*/
+
 		initialize: function() {
-			/*
-				Gets called if and only if the object triggers an `customEvent` event and
-				passes a message through it. If message is not passed; it will show `undefined.
-			*/
-			this.on('customEvent', this.doSomething, this);
+			this.model = new MasterModel({
+				"origin": "Pune",
+				"destination": "Mumbai",
+				"sensor": "false"
+			});
+			this.render();
 		},
 
+		el: "#directionApi",
+
+		template: _.template($("#routesTable").html()),
+
 		/*
-			Custom function which gets triggered with trigger event method.
-			someData is optional, It related to the concept of passing data as function arguments.
+			This is the view's render function; Used to render data.
 		*/
-		doSomething: function(someData) {
-			console.log(someData);
+		render: function() {
+			var self = this;
+
+			this.model.fetch({
+				success: function() {
+					console.log("Google service api is working well.");
+					console.log(self.model.toJSON());
+					self.$el.html(self.template(self.model.toJSON()));
+				},
+				error: function() {
+					console.log("Some error got triggered while accessing Google service api.");
+				}
+			});
 		}
+
 	});
 
 	/*
@@ -39,10 +75,6 @@
 	*/
 	var masterView = new MasterView();
 
-	/*
-		Gets called when object triggers an `alert` event and passes a message through it.
-		if message is not passed message will show `undefined.
-	*/
-	masterView.trigger('customEvent', "Hello, Backbone.JS");
+	console.log(masterView.el);
 
 })();

@@ -1,9 +1,9 @@
 (function() {
 	/*
-		The goal of this file is to provide the basic understanding 
+		The goal of this file is to provide the basic understanding
 		1. Create a View class.
-		2. Reference with DOM with tabName, className, id.	
-		
+		2. Reference with DOM using tabName, className, id.
+
 		How to run this example.
 		1. Open Example-1.html in Google Chrome browser.
 		2. Press F12, go to console tab.
@@ -13,8 +13,8 @@
 	/*
 		Creating a new View called MasterView by extending Backbone.View class.
 		Syntax: Backbone.View.extend(properties, [classProperties])
-	*/	
-	var MasterView = Backbone.View.extend({		
+	*/
+	var MasterView = Backbone.View.extend({
 		/*
 			This initialize function will get called when the View is first created.
 		*/
@@ -29,11 +29,10 @@
 		className: 'container',
 
 		/*
-			Optional property, this property will let you set tagName's id.		
+			Optional property, this property will let you set tagName's id.
 		*/
 		id: 'master'
 
-		
 	});
 
 	/*
@@ -51,9 +50,9 @@
 
 	/*
 		Creating a new view called ChildView by extending Backbone.View class.
-	*/	
+	*/
 	var ChildView = Backbone.View.extend({
-		
+
 		/*
 		 	Required property, if not set Backbone will set the defaults to 'div'.
 		 	Here, tagName is specified as 'ul'.
@@ -67,7 +66,7 @@
 		className: 'container',
 
 		/*
-			Optional property, this property will let you set tagName's id.		
+			Optional property, this property will let you set tagName's id.
 		*/
 		id: 'child'
 

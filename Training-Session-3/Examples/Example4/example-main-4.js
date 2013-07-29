@@ -1,7 +1,7 @@
 (function() {
 	/*
 		The goal of this file is to provide the basic understanding
-		1. Templates.
+		1. Passing attributes to Underscore Micro Templates.
 
 		How to run this example.
 		1. Open Example-1.html in Google Chrome browser.

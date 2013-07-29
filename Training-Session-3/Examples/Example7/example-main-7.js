@@ -1,61 +1,75 @@
 (function() {
 	/*
-		The goal of this file is to provide the basic understanding 
-		1. Templates.		
-		
+		The goal of this file is to provide the basic understanding
+		1. Backbone's build-in events methods old way.
+
 		How to run this example.
-		1. Open Example-1.html in Google Chrome browser.
+		1. Open Example-7.html in Google Chrome browser.
 		2. Press F12, go to console tab.
 		3. See the message get displayed on that console tab.
 	*/
 
-	var MasterModel = Backbone.Model.extend({		
-		url: function() {
-			return "http://maps.googleapis.com/maps/api/directions/json?origin=Pune&destination=Mumbai&sensor=false";
-		}
-	});
+	var MasterView = Backbone.View.extend({
+		el: '.workspace',
 
-	/*
-		Creating a new View called MasterView by extending Backbone.View class.
-		Syntax: Backbone.View.extend(properties, [classProperties])
-	*/	
-	var MasterView = Backbone.View.extend({		
-		
-		initialize: function() {
-			this.model = new MasterModel();
-			this.render();
+		events: {
+			'click input[type=submit]': 'eventsHubMultiple',
+			'click input[type=button]': 'eventsHubSingle'
 		},
 
-		el: "#directionApi",
+		eventsHubMultiple: function() {
+			/*
+				Gets called when object triggers an `customEvent` event
+				and passes a message through it. If message is not passed
+				message will show `undefined.
 
-		template: _.template($("#routesTable").html()),
+				Syntax:
+					object.trigger(event, [*args]);
+
+			*/
+			this.trigger('customEvent','Ashwin');
+
+			/*
+				Syntax:
+					object.off([event], [callback], [context]);
+			*/
+			this.off('customEvent');
+		},
+
+		eventsHubSingle: function() {
+			this.trigger('customEventOnce', 'Vinayak');
+		},
+
+		initialize: function() {
+			/*
+				Syntax:
+					object.on(event, callback, [context]);
+			*/
+			this.on('customEvent', this.doSomething, this);
+
+			/*
+				Syntax:
+					object.once(event, callback, [context]);
+			*/
+			this.once('customEventOnce', this.doSomethingOnce, this);
+		},
 
 		/*
-			This is the view's render function; Used to render data.
+			Custom function which gets triggered with trigger event method.
+			name is optional, It related to the concept of passing data as function arguments.
 		*/
-		render: function() {
-			var self = this;
+		doSomething: function(name) {
+			console.log("Hello, " + name);
+		},
 
-			this.model.fetch({
-				success: function() {
-					console.log("Google service api is working well.");
-					console.log(self.model.toJSON());
-					self.$el.html(self.template(self.model.toJSON()));
-				},
-				error: function() {
-					console.log("Some error got triggered while accessing Google service api.");
-				}
-			})
-			
+		doSomethingOnce: function(name) {
+			console.log("Good Evening, " + name);
 		}
-
 	});
 
 	/*
 		Creating an object from MasterView which calls initialize function.
 	*/
 	var masterView = new MasterView();
-
-	console.log(masterView.el);
 
 })();

@@ -1,10 +1,11 @@
 (function() {
 	/*
-		The goal of this file is to provide the basic understanding 
+		The goal of this file is to provide the basic understanding
 		1. Create a View class.
-		2. Understanding el.			
-		3. Event.
-		
+		2. Reference with DOM using el & this.$el
+		3. DOM events hash.
+		4. Scope of DOM event.
+
 		How to run this example.
 		1. Open Example-1.html in Google Chrome browser.
 		2. Press F12, go to console tab.
@@ -14,8 +15,8 @@
 	/*
 		Creating a new View called MasterView by extending Backbone.View class.
 		Syntax: Backbone.View.extend(properties, [classProperties])
-	*/	
-	var MasterView = Backbone.View.extend({		
+	*/
+	var MasterView = Backbone.View.extend({
 		/*
 			All views have a DOM element at all times (the el property),
 			whether they've already been inserted into the page or not.
@@ -23,7 +24,7 @@
 		el: '.workspace',
 
 		/*
-			Event hash.
+			Events hash.
 		*/
 		events: {
 			'click input[type=submit]': 'submitForm',
@@ -50,7 +51,7 @@
 			This is the view's render function; Used to render data.
 		*/
 		render: function() {
-			console.log("View render function.");			
+			console.log("View render function.");
 		}
 
 	});
