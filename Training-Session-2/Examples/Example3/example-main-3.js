@@ -19,9 +19,6 @@
 		url: function() {
 			return 'http://maps.googleapis.com/maps/api/directions/json?origin=Pune&destination=Mumbai&sensor=false'
 		},
-		// urlRoot: function() {
-		// 		return 'http://maps.googleapis.com/maps/api/directions/json?origin=Pune&destination=Mumbai&sensor=false'
-		// }
 		parse: function(response) {
 			console.log("Parse response: ");
 			console.log(response);
