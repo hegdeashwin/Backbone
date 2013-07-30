@@ -15,10 +15,10 @@ This training session includes the following listed out table of contents
   </li>
   <li>Understanding Events
     <ol>
-      <li>Events</li>
-      <li>Setting &amp; triggering events</li>
-      <li>Updated Backbone events</li>
-      <li>Events catelog</li>   
+      <li>Events hash</li>
+      <li>Setting &amp; triggering custom events</li>
+      <li>Backbone's events</li>
+      <li>Events handling in Model</li>   
     </ol>
   </li>
 </ol>
