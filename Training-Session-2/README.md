@@ -1,4 +1,4 @@
-Training Session 2 - <br>Understanding Backbone Model
+Training Session 2 - <br>Understanding Backbone Model 
 =====================================================
 
 This training session includes the following listed out table of contents
