@@ -20,6 +20,7 @@ This training session includes the following listed out table of contents
       <li>Service URL</li>
       <li>Operations on data</li>
       <li>Server communication</li>     
+      <li>Data validation</li>
     </ol>
   </li>
 </ol>
