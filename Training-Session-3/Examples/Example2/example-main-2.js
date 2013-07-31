@@ -21,7 +21,7 @@
 			All views have a DOM element at all times (the el property),
 			whether they've already been inserted into the page or not.
 		*/
-		el: '.workspace'
+		el: '.workspace',
 
 		/*
 			Events hash.
