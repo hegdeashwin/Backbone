@@ -12,6 +12,11 @@ This training session includes the following listed out table of contents
       <li>Sorting Data</li>      
     </ol>
   </li>
+   <li>Advance part of Backbone Collection
+    <ol>
+      <li>Operations on Data</li>
+    </ol>
+  </li>
 </ol>
 
   
