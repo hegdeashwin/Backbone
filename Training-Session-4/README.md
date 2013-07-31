@@ -12,13 +12,6 @@ This training session includes the following listed out table of contents
       <li>Sorting Data</li>      
     </ol>
   </li>
-  <li>Advance part of Backbone Collection
-    <ol>
-      <li>Service URL</li>
-      <li>Operations on Data</li>   
-      <li>Server communication</li>
-    </ol>
-  </li>
 </ol>
 
   
