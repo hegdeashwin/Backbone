@@ -11,7 +11,7 @@ The goal of this directory is to provide the basic understanding of the working 
 <ol>
   <li>Example 1
     <ol>
-      <li>Perform Read operation (C<strong>R</strong>UD, R = Read) on data.</li>
+      <li>Perform Read operation (C<strong>R</strong>UD, R = Retrieve) on data.</li>
     </ol>
   </li>
   <li>Example 2
