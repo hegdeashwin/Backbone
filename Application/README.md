@@ -6,22 +6,22 @@ The goal of this file is to provide the basic understanding
 <ol>
   <li>Example 1
     <ol>
-      <li>Perform read operation (CRUD, R = Read) on data.</li>
+      <li>Perform Read operation (C<strong>R</strong>UD, R = Read) on data.</li>
     </ol>
   </li>
   <li>Example 2
     <ol>
-      <li>Perform Create operation (CRUD, C = Create) on data.</li>
+      <li>Perform Create operation (<strong>C</strong>RUD, C = Create) on data.</li>
     </ol>
   </li>
   <li>Example 3
     <ol>
-      <li>Perform Delete operation (CRUD, D = Delete) on data.</li>
+      <li>Perform Delete operation (CRU<strong>D</strong>, D = Delete) on data.</li>
     </ol>
   </li>
   <li>Example 4
     <ol>
-      <li>Perform Edit/Save operation (CRUD, U = Update) on data.</li>
+      <li>Perform Edit/Save operation (CR<strong>U</strong>D, U = Update) on data.</li>
     </ol>
   </li>
   <li>Example 5
