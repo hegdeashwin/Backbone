@@ -1,7 +1,12 @@
 Application Examples
 ====================
 
-The goal of this file is to provide the basic understanding
+This application example has been taken from "Net-Tutsplus". So the credit goes to Nettuts website 
+which provided the backbone application example.
+
+You can have a look <a href="http://net.tutsplus.com/tutorials/javascript-ajax/build-a-contacts-manager-using-backbone-js-part-1/" target="_blank">here</a>.
+
+The goal of this directory is to provide the basic understanding of the working application of Backbone.JS.
 
 <ol>
   <li>Example 1
