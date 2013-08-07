@@ -24,7 +24,7 @@
             These are various attributes that will be set by default when the model gets created.
         */
         defaults: {
-            photo: "../../../img/placeholder.png",
+            photo: "../../img/placeholder.png",
             name: "",
             address: "",
             tel: "",
