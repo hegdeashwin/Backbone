@@ -27,6 +27,14 @@ Training kit includes
   <li>Training Session 6: Architecture &amp; Server side workflow</li>
 </ul>
 
+
+How to use training kit examples
+================================
+Clone the repository and start running the examples in your browser and browse the codes with ready commits or 
+you can also experiment with the code online which is powered by JSFiddle.
+
+<a href="https://github.com/hegdeashwin/Backbone/archive/master.zip" target="_blank">Download this respository</a> or <a href="http://jsfiddle.net/hegdeashwin/TKkMt/show/" target="_blank">Experiment online</a>
+
 Recommended text editor
 =======================
 You can used any text editor which ever you are comfortable with on any operating systems.
