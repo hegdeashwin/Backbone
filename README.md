@@ -5,7 +5,6 @@ As Backbone.JS is entirely written in JavaScript.
 
 This training kit will teach you the basics of Backbone.JS and introduction to advanced part.
 
-
 Prerequisites arranged as per the priority 
 ==========================================
 <ul>  
@@ -19,14 +18,13 @@ Prerequisites arranged as per the priority
 Training kit includes
 =====================
 <ul>
-  <li>Training Session 1: Getting Started</li>
-  <li>Training Session 2: Backbone Model.</li>
-  <li>Training Session 3: Backbone View, Events &amp; Templates</li>
-  <li>Training Session 4: Backbone Collection.</li>
-  <li>Training Session 5: Backbone Router</li>
-  <li>Training Session 6: Architecture &amp; Server side workflow</li>
+  <li>Training Session <strong>1</strong>: <strong>Getting Started</strong>.</li>
+  <li>Training Session <strong>2</strong>: <strong>Backbone Model</strong>.</li>
+  <li>Training Session <strong>3</strong>: <strong>Backbone View, Events &amp; Templates</strong>.</li>
+  <li>Training Session <strong>4</strong>: <strong>Backbone Collection</strong>.</li>
+  <li>Training Session <strong>5</strong>: <strong>Backbone Router</strong>.</li>
+  <li>Training Session <strong>6</strong>: <strong>Architecture &amp; Server side workflow</strong>.</li>
 </ul>
-
 
 How to use training kit examples
 ================================
@@ -49,24 +47,35 @@ as per the priority.
 
 Contributors
 ============
+Developed &amp; maintained by author: <b>Ashwin Hegde</b><br>
+Follow me at: <a href="https://github.com/hegdeashwin" target="_blank">github</a> | <a href="http://in.linkedin.com/in/hegdeashwin" target="_blank">Linkedin</a> | <a href="https://twitter.com/hegdeashwin3" target="_blank">Twitter</a>
 
-<ul>
-  <li>
-    <a href="in.linkedin.com/in/hegdeashwin" target="_blank">Ashwin Hegde</a>,
-    Email me at: <a href="mailto:ashwin.hegde3@gmail.com">ashwin.hegde3@gmail.com</a>,
-    Linkedin: <a href="in.linkedin.com/in/hegdeashwin">in.linkedin.com/in/hegdeashwin</a>  
-  </li>
-</ul>
+Visit the following link to know about Backbone current training updates<br>
+Home: <a href="https://github.com/hegdeashwin/Backbone" target="_blank">https://github.com/hegdeashwin/Backbone</a>
+  
+If you find any typo errors, enhancements or questions; please feel free to log it on following link<br>
+Feedback: <a href="https://github.com/hegdeashwin/Backbone/issues" target="_blank">https://github.com/hegdeashwin/Backbone/issues</a>
 
-Licensing
-=========
+License
+=======
+The MIT License (MIT)
 
-These files are part of training kit.
+Copyright (c) 2013 Ashwin Hegde
 
-This training kit is free documentation: you can re-distribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
 
-This training kit is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-You should have received a copy of the GNU General Public License along with training kit. If not, see http://www.gnu.org/licenses/.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Also see http://www.gnu.org/licenses/gpl-3.0.txt
