@@ -6,7 +6,7 @@ which provided the backbone application example.
 
 You can have a look <a href="http://net.tutsplus.com/tutorials/javascript-ajax/build-a-contacts-manager-using-backbone-js-part-1/" target="_blank">here</a>.
 
-The goal of this directory is to provide the basic understanding of the working application of Backbone.JS.
+The goal of this directory is to provide the basic understanding of the working application of Backbone.JS Application.
 
 <ol>
   <li>Example 1
@@ -31,20 +31,7 @@ The goal of this directory is to provide the basic understanding of the working 
   </li>
   <li>Example 5
     <ol>
-      <li>Understanding how Backbone Router works.</li>
+      <li>Understanding the working of Backbone Router.</li>
     </ol>
   </li>
 </ol>
-
-Licensing
-=========
-
-This file is part of Training-Session.
-
-Training-Session is free documentation: you can re-distribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-Training-Session is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with Training-Session. If not, see http://www.gnu.org/licenses/.
-
-Also see http://www.gnu.org/licenses/gpl-3.0.txt
