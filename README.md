@@ -45,10 +45,6 @@ as per the priority.
   <li>Adobe Dreamweaver</li>
 </ul>
 
-
-=================================================
-
-
 Contributors
 ============
 Developed &amp; maintained by author: <b>Ashwin Hegde</b><br>
