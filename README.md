@@ -45,9 +45,9 @@ as per the priority.
   <li>Adobe Dreamweaver</li>
 </ul>
 
-Backbone's Development version code documentation
+
 =================================================
-If you want to have a visit to understand the Backbone's development code in details <a href="http://documentcloud.github.io/backbone/docs/backbone.html" target="_blank">Click Here</a>.
+
 
 Contributors
 ============
@@ -59,6 +59,9 @@ Home: <a href="https://github.com/hegdeashwin/Backbone" target="_blank">https://
   
 If you find any typo errors, enhancements or questions; please feel free to log it on following link<br>
 Feedback: <a href="https://github.com/hegdeashwin/Backbone/issues" target="_blank">https://github.com/hegdeashwin/Backbone/issues</a>
+
+Visit the following link to know about Backbone's development code in detail<br>
+Documentation <a href="http://documentcloud.github.io/backbone/docs/backbone.html" target="_blank">http://documentcloud.github.io/backbone/docs/backbone.html</a>.
 
 License
 =======
