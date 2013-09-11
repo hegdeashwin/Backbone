@@ -2,7 +2,9 @@
 
     /*
         The goal of this file is to provide the basic understanding
-        1. Perform Create operation (CRUD, C = Create) on data.
+        1. Understanding how to integrate Backbone's Collection, Model & View.
+        2. Understanding how to use Underkscore's micro-templating feature.
+        3. Perform read operation (CRUD, R = Read) on data.
     */
 
     /*
@@ -21,17 +23,10 @@
     */
     var Contact = Backbone.Model.extend({
         /*
-            This initialize function will get called when the model is first created.
-        */
-        initialize: function() {
-            console.log("Contact model got initialized");
-        },
-
-        /*
             These are various attributes that will be set by default when the model gets created.
         */
         defaults: {
-            photo: "../../img/placeholder.png",
+            photo: "../../../img/placeholder.png",
             name: "",
             address: "",
             tel: "",
@@ -45,12 +40,6 @@
     */
     var Contacts = Backbone.Collection.extend({
         /*
-            This initialize function will get called when the collection is first created.
-        */
-        initialize: function() {
-            console.log("Contacts collection got initialized");
-        },
-        /*
             Used to specify the model class that the collection contains.
         */
         model: Contact
@@ -61,22 +50,17 @@
     */
     var ContactView = Backbone.View.extend({
         /*
-            This initialize function will get called when the view is first created.
-        */
-        initialize: function() {
-            console.log("ContactView view got initialized");
-        },
-
-        /*
             tagName & className property will create following HTML markup.
             <article className="contact-container"></article>
         */
-        tagName: "article",
+
         className: "contact-container",
 
         template: _.template($("#contactTemplate").html()),
 
         render: function () {
+            console.log("Model data 1 by 1: ");
+            console.log(this.model.toJSON());
             /*
                 Passing the model data to template and then to this.$el.html which has article tag.
                 Thus, the updated template with all the data rendered gets appended to article tag.
@@ -105,42 +89,8 @@
 
             this.render();
 
-            /*
-                This event gets fired when a model is added.
-            */
+            this.collection.on("reset", this.render, this);
             this.collection.on("add", this.renderContact, this);
-        },
-
-        /*
-            Event hash will handle all the event listener.
-        */
-        events: {
-            "click #add": "addContact"
-        },
-
-        /*
-            This method gets fired when add button is clicked.
-        */
-        addContact: function (e) {
-            e.preventDefault();
-
-            var formData = {};
-            $("#addContact").children("input").each(function (i, el) {
-                if ($(el).val() !== "") {
-                    formData[el.id] = $(el).val();
-                }
-            });
-
-            /*
-                Used to push form data object to people object.
-            */
-            people.push(formData);
-
-            /*
-                This will fire add event.
-            */
-            this.collection.add(new Contact(formData));
-
         },
 
         render: function () {

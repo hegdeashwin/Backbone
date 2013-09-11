@@ -2,11 +2,11 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Under Training Session 5: Application Example 4</title>
+		<title>Under Training Session 5: Application Example 1</title>
 		<style>
 			body { padding-top: 20px; }
 		</style>
-		<link href="../../css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="../../../css/bootstrap.min.css" rel="stylesheet"/>
 	</head>
 	<body>
 		<div class="container">
@@ -16,12 +16,12 @@
 						<h2>Structuring your web apps via Backbone.JS</h2>
 					</div>
 					<div class="row">
-						<h3>Under Training Session 5: Application Example 4</h3>
+						<h3>Under Training Session 5: Application Example 1</h3>
 					</div>
 					<hr>
-					<p class="lead">Scope of Application</p>
+					<p class="lead">Scope of the Application</p>
 					<ol>
-						<li>Perform Edit/Save operation (CR<strong>U</strong>D, U = Update) on data</li>
+						<li>Perform read operation (C<strong>R</strong>UD, R = Read) on data.</li>
 					</ol>
 					<hr>
 					<p class="lead">Visit to <a href="https://github.com/hegdeashwin/Backbone/tree/master/Training-Session-5" target="_blank">Github</a> for more information regarding the training session 5.</p>
@@ -29,20 +29,15 @@
 			</div>
 			<div class="row">
 				<!-- This the div area where all the runtime generated data will get rendered -->
-		        <div id="contacts"></div>
+        		<div id="contacts"></div>
 
-		        <!-- Underscore micro-templating -->
+        		<!-- Underscore micro-templating -->
 		        <script id="contactTemplate" type="text/template">
 			   		<table class="table table-bordered">
 				        <thead>
 				          <tr>
 				            <th width="20%" style="text-align: center;">Profile Pic</th>
-				            <th colspan="2">
-				            	Name: <%= name %>
-				            	<span class="pull-right">
-					            	<button class="btn btn-primary edit">Edit</button>
-            					</span>
-				            </th>
+				            <th>Name: <%= name %></th>
 				          </tr>
 				        </thead>
 				        <tbody>
@@ -66,41 +61,6 @@
 				        </tbody>
 				    </table>
 		        </script>
-
-		        <!-- Edit mode Underscore micro-templating -->
-	            <script id="contactEditTemplate" type="text/template">
-			   		<form action="#">
-				   		<table class="table table-bordered">
-					        <thead>
-					          <tr>
-					            <th width="20%" style="text-align: center;">Profile Pic</th>
-					            <th colspan="2">
-					            	Name: <input class="name" value="<%= name %>" /><input id="type" type="hidden" value="<%= type %>" />
-					            	<span class="pull-right">
-						            	<button class="btn btn-success save">Save</button>
-	                					<button class="btn btn-default cancel">Cancel</button>
-	            					</span>
-					            </th>
-					          </tr>
-					        </thead>
-					        <tbody>
-					          <tr>
-					            <td rowspan="4" style="text-align: center;"><img src="<%= photo %>" alt="<%= name %>" /></td>
-					            <td calspan="2" width="20%">Address: </td>
-					            <td><input class="address" value="<%= address %>" /></td>
-					          </tr>
-					          <tr>
-					            <td>Contact No.: </td>
-					            <td><input class="tel" value="<%= tel %>" /></td>
-					          </tr>
-					          <tr>
-					            <td>Email: </td>
-					            <td><input class="email" value="<%= email %>" /></td>
-					          </tr>
-					        </tbody>
-					    </table>
-				    </form>
-		        </script>
 			</div>
 		</div>
 
@@ -111,7 +71,7 @@
 		    IMPORTANT NOTE:
 		    Backbone.JS has light dependence on jQuery for DOM manipulation.
 		-->
-		<script src="../../js/jquery-min.js" type="text/javascript"></script>
+		<script src="../../../js/jquery-min.js" type="text/javascript"></script>
 
 		<!-- Step 2:
 			Include Underscore, Here the Underscore is included with in js directory,
@@ -121,7 +81,7 @@
 			Underscore.js should always included before Backbone.JS.
 			else Browser console will show error, because Backbone’s only dependency is Underscore.js
 		-->
-		<script src="../../js/underscore-min.js" type="text/javascript"></script>
+		<script src="../../../js/underscore-min.js" type="text/javascript"></script>
 
 		<!-- Step 3:
 			Include JSON2, Here the JSON2 is included with in js directory,
@@ -130,24 +90,24 @@
 			IMPORTANT NOTE:
 			json2.js should always included for JSON support for older browsers.
 		-->
-		<script src="../../js/json2.js" type="text/javascript"></script>
+		<script src="../../../js/json2.js" type="text/javascript"></script>
 
 		<!-- Step 4:
 			Include Backbone, Here the Backbone is included with in js directory,
 			Thus the relative path for the file becomes ../../js/backbone.js
 		-->
-		<script src="../../js/backbone-min.js" type="text/javascript"></script>
+		<script src="../../../js/backbone-min.js" type="text/javascript"></script>
 
 		<!-- Step 5:
-			Include example-main-4.js, Here the example-main-4.js is included with in js directory,
-			Thus the relative path for the file becomes example-main-4.js.
+			Include example-main-1.js, Here the example-main-1.js is included with in js directory,
+			Thus the relative path for the file becomes example-main-1.js.
 
-			NOTE: example-main-4.js is custom user defined file.
+			NOTE: example-main-1.js is custom user defined file.
 			You can change its name as per your requirements.
 
-			example-main-4.js is where your application begins.
+			example-main-1.js is where your application begins.
 			You should customize it in order to initialize your views, models, collections and routers.
 		-->
-		<script src="example-main-4.js"></script>
+		<script src="example-main-1.js"></script>
 	</body>
 </html>
