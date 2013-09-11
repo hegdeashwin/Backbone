@@ -1,7 +1,7 @@
 Application Examples
 ====================
 
-This application example has been taken from "Net-Tutsplus". So the credit goes to Nettuts website 
+This idea behind these application examples have been taken from "Net-Tutsplus". So the credit goes to Nettuts website 
 which provided the backbone application example.
 
 You can have a look <a href="http://net.tutsplus.com/tutorials/javascript-ajax/build-a-contacts-manager-using-backbone-js-part-1/" target="_blank">here</a>.
