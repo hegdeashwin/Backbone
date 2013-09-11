@@ -45,6 +45,10 @@ as per the priority.
   <li>Adobe Dreamweaver</li>
 </ul>
 
+Backbone's Development version code documentation
+=================================================
+If you want to have a visit to understand the Backbone's development code in details <a href="http://documentcloud.github.io/backbone/docs/backbone.html" target="_blank">Click Here</a>.
+
 Contributors
 ============
 Developed &amp; maintained by author: <b>Ashwin Hegde</b><br>
