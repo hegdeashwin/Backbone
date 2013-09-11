@@ -25,6 +25,9 @@ Training kit includes
   <li>Training Session <strong>5</strong>: <strong>Backbone Router</strong>.</li>
   <li>Training Session <strong>6</strong>: <strong>Architecture &amp; Server side workflow</strong>.</li>
 </ul>
+<ul>
+  <li>For more information on Backbone's coding standards, plugins etc. Please visit <a href="https://github.com/hegdeashwin/Backbone/wiki" target="_blank">Backbone's training kit Github Wiki documenation</a></li>
+</ul>
 
 How to use training kit examples
 ================================
