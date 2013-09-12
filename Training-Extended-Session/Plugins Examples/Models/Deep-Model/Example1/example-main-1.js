@@ -81,7 +81,7 @@
     console.log("Set nested attributes at level 3");
     masterModel.set({
         'contacts.email.personal': 'ashwinh.cybage@gmail.com',
-        'contacts.email.webmail': 'ashwinh@yesmail.com'
+        'contacts.email.webmail': 'ashwinh@yahoo.com'
     });
     console.log("Get new nested attributes array level 3:")
     console.log(masterModel.get('contacts.email.personal'));
