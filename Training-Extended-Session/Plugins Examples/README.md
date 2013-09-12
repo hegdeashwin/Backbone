@@ -3,7 +3,7 @@ Plugins Examples
 The goal of this directory is to provide the basic understanding of the different plugins used with Backbone applications to make developers life easy.
 There are large number of plugins but following are the choosen few plugins list which i found to be very useful.
 
-<ul>  
+<ul>
   <li>
     <strong>Development Tools</strong>
     <ul>
