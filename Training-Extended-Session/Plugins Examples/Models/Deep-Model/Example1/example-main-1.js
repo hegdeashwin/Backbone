@@ -3,6 +3,8 @@
     /*** READ-ME
      * The goal of this file is to provide the basic understanding
      * 1. Understanding how to Backbone-Deep-Model Plugins used.
+     * 2. Get and set nested attributes with path syntax.
+     * 3. Triggers change events for changes on nested attributes.
      */
 
     /*** NOTE
@@ -20,6 +22,7 @@
         */
         initialize: function() {
             console.log("Your deep-model has been initialize.");
+            this.on('change:contacts.mobile', this.updates());
         },
 
         /*
@@ -43,6 +46,13 @@
                 { name: 'Bhavik', company: 'Blackberry' },
                 { name: 'Nakool', company: 'Infosys' }
             ]
+        },
+
+        /*
+            This event gets fired when contacts.mobile value get changed.
+        */
+        updates: function() {
+            console.log("Change event get called.");
         }
     });
 
@@ -88,4 +98,7 @@
     console.log(masterModel.get('networks.1.name'));
     console.log(masterModel.get('networks.2.name'));
 
+    masterModel.set({
+        'contacts.mobile': '9822256473'
+    });
 } (jQuery));
