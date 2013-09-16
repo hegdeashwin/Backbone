@@ -48,6 +48,26 @@ as per the priority.
   <li>Adobe Dreamweaver</li>
 </ul>
 
+Change Log
+==========
+<table>
+  <thead>
+    <tr>
+      <th>Release date: September 16, 2013</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <ol>
+          <li>Added plugins examples; under Training-Extended-Session.</li>
+          <li>Added usage &amp; implementation of Backbone-Deep-Model plugin</li>
+        </ol>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 Contributors
 ============
 Developed &amp; maintained by author: <b>Ashwin Hegde</b><br>
