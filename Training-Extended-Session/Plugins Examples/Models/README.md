@@ -1,8 +1,8 @@
 Models Plugins
 ==============
-The goal of this directory is to provide the basic understanding of the Backbone's models based plugins used with Backbone applications.
+The goal of this directory is to provide the basic understanding of the Backbone's model based plugins used with Backbone applications.
 
-List of Backbone's Models Plugins
+List of Backbone's Model Plugins
 =================================
 <ol>
   <li>
