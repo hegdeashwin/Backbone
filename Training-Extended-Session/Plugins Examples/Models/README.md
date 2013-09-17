@@ -6,4 +6,5 @@ List of Backbone's Models Plugins
 =================================
 <ol>
   <li>Backbone Deep Model</li>
+  <li>Backbone Forms</li>
 </ol>

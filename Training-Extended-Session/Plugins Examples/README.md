@@ -8,6 +8,7 @@ There are large number of plugins but following are the choosen few plugins list
     <strong>Models</strong>
     <ul>
       <li>Backbone Deep Model</li>
+	  <li>Backbone Forms</li>
     </ul>
   </li>
 </ul>

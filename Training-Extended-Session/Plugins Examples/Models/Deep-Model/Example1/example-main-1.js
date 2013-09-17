@@ -57,7 +57,7 @@
     });
 
     /*
-        Creating an object from MasterView which calls initialize function.
+        Creating an object from MasterModel which calls initialize function.
     */
     var masterModel = new MasterModel();
     console.log("Model class object: ");
