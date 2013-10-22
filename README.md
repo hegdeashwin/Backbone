@@ -53,6 +53,22 @@ Change Log
 <table>
   <thead>
     <tr>
+      <th>Release date: October 22, 2013</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <ol>
+          <li>Added callback function to get current route</li>
+        </ol>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
       <th>Release date: September 16, 2013</th>
     </tr>
   </thead>
