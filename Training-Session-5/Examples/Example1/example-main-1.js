@@ -6,7 +6,8 @@
 		Backbone history,
 		Routes hash,
 		Simple route,
-		Route parameters
+		Route parameters,
+		Getting currect route
 
 
 		How to run this example.
@@ -43,7 +44,8 @@
 			*/
 			// Matches #page/8, passing "8"
 			this.route("page/:number", function(number){
-				console.log("Route: page/" + number);
+				console.log("Route Callback: Page/{number}");
+				console.log("Get @param{number}: " + number);
 			});
 
 			// Matches /117-a/b/c/open, passing /117-a/b/c to open function.
@@ -60,27 +62,31 @@
 			"about": "about",   // #about
 			"search/:query/p:page": "search",  // #search/book/p7
 			"contact": function() {
-				console.log("Route: Contact Us");
+				console.log("Route Callback: Contact Us");
+				this.getCurrentRoutes();
 			},
 			"help": "help"
 		},
 
 		home: function() {
-			console.log("Route: Home");
+			console.log("Route Callback: Home");
+			this.getCurrentRoutes();
 		},
 
 		about: function() {
-			console.log("Route: About Us");
+			console.log("Route Callback: About Us");
+			this.getCurrentRoutes();
 		},
 
 		search: function(query,page) {
-			console.log("Route: Search");
+			console.log("Route Callback: Search");
 			console.log("	=> Search Query: " + query);
 			console.log("	=> Page No: " + page);
 		},
 
 		open: function(id) {
-			console.log("Route: " + id);
+			console.log("Route Callback: Open (Redirect to Help Callback)");
+			console.log("Get @param {id}: " + id);
 
 			/*
 				Whenever you reach a point in your application that you'd like to save as a URL,
@@ -92,7 +98,12 @@
 		},
 
 		help: function() {
-			console.log("Route: Help");
+			console.log("Route Callback: Help");
+			this.getCurrentRoutes();
+		},
+
+		getCurrentRoutes: function() {
+			console.log("Backbone History Fragment (Current Route): " + Backbone.history.fragment);
 		}
 	});
 
