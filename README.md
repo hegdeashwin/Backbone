@@ -48,41 +48,21 @@ as per the priority.
   <li>Adobe Dreamweaver</li>
 </ul>
 
+
 Change Log
 ==========
-<table>
-  <thead>
-    <tr>
-      <th>Release date: October 22, 2013</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <ol>
-          <li>Added callback function to get current route</li>
-        </ol>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<table>
-  <thead>
-    <tr>
-      <th>Release date: September 16, 2013</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <ol>
-          <li>Added plugins examples; under Training-Extended-Session.</li>
-          <li>Added usage &amp; implementation of Backbone-Deep-Model plugin</li>
-        </ol>
-      </td>
-    </tr>
-  </tbody>
-</table>
+> Release date: **October 22, 2013**
+```
+1. Training Session 5 - Added callback function to get current route in router example.
+```
+
+> Release date: **September 16, 2013**
+```
+1. Training Extended Session - 
+   1.1 Added plugins example.
+   1.2 Added usage & implementation of Backbone-Deep-Model plugin.
+```
+
 
 Contributors
 ============
