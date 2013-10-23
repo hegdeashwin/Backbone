@@ -48,6 +48,17 @@ as per the priority.
   <li>Adobe Dreamweaver</li>
 </ul>
 
+Development tools
+=================
+<dl>
+  <dt>Backbone Eye, [ <a href="http://dhruvaray.github.io/spa-eye/" target="_blank">Home Site</a> | <a href="https://github.com/dhruvaray/spa-eye" target="_blank">Git Repository</a> ]</dt>
+  <dd>A Mozilla FIrefox - Firebug extension for debugging Backbone.js applications. A way to understand Backbone application behavior without wading through JavaScript code.
+  </dd>
+  
+  <dt>Backbone Debugger, [ <a href="https://github.com/Maluen/Backbone-Debugger" target="_blank">Git Repository</a> ]</dt>
+  <dd>A Google Chrome - Developer Tools extension for debugging Backbone.js applications. Displays in real-time all the application views, models, collections and routers, with detailed information such as handled jQuery events, model attributes, collection models, sync status, events triggered and more.
+  </dd>
+</dl>
 
 Change Log
 ==========
