@@ -1,14 +1,14 @@
 Structuring your web apps via Backbone.JS
 =========================================
-This training kit has been developed for those who already have the basic knowledge of JavaScript & jQuery; 
-As Backbone.JS is entirely written in JavaScript. 
+This training kit has been developed for those who already have the basic knowledge of JavaScript & jQuery;
+As Backbone.JS is entirely written in JavaScript.
 
 This training kit will teach you the basics of Backbone.JS and introduction to advanced part.
 
-Prerequisites arranged as per the priority 
+Prerequisites arranged as per the priority
 ==========================================
-<ul>  
-  <li>JavaScript</li>  
+<ul>
+  <li>JavaScript</li>
   <li>jQuery</li>
   <li>Underscore</li>
   <li>HTML &amp; CSS</li>
@@ -31,7 +31,7 @@ Training kit includes
 
 How to use training kit examples
 ================================
-Clone the repository and start running the examples in your browser and browse the codes with ready commits or 
+Clone the repository and start running the examples in your browser and browse the codes with ready commits or
 you can also experiment with the code online which is powered by JSFiddle.
 
 <a href="https://github.com/hegdeashwin/Backbone/archive/master.zip" target="_blank">Download this repository</a> or <a href="http://jsfiddle.net/hegdeashwin/TKkMt/show/" target="_blank">Experiment online</a>
@@ -43,7 +43,7 @@ But when it comes to JavaScript based project I personally recommend the followi
 as per the priority.
 <ul>
   <li>Sublime Text 2 or above</li>
-  <li>Notepad++</li>  
+  <li>Notepad++</li>
   <li>Microsoft Visual Studio</li>
   <li>Adobe Dreamweaver</li>
 </ul>
@@ -54,7 +54,7 @@ Development tools
   <dt>Backbone Eye, [ <a href="http://dhruvaray.github.io/spa-eye/" target="_blank">Home Site</a> | <a href="https://github.com/dhruvaray/spa-eye" target="_blank">Git Repository</a> ]</dt>
   <dd>A Mozilla FIrefox - Firebug extension for debugging Backbone.js applications. A way to understand Backbone application behavior without wading through JavaScript code.
   </dd>
-  
+
   <dt>Backbone Debugger, [ <a href="https://github.com/Maluen/Backbone-Debugger" target="_blank">Git Repository</a> ]</dt>
   <dd>A Google Chrome - Developer Tools extension for debugging Backbone.js applications. Displays in real-time all the application views, models, collections and routers, with detailed information such as handled jQuery events, model attributes, collection models, sync status, events triggered and more.
   </dd>
@@ -65,11 +65,12 @@ Change Log
 > Release date: **October 22, 2013**
 ```
 1. Training Session 5 - Added callback function to get current route in router example.
+2. JS - Updated backbone.js to version 1.1.0
 ```
 
 > Release date: **September 16, 2013**
 ```
-1. Training Extended Session - 
+1. Training Extended Session -
    1.1 Added plugins example.
    1.2 Added usage & implementation of Backbone-Deep-Model plugin.
 ```
@@ -81,8 +82,8 @@ Developed &amp; maintained by author: <b>Ashwin Hegde</b><br>
 Follow me at: <a href="https://github.com/hegdeashwin" target="_blank">github</a> | <a href="http://in.linkedin.com/in/hegdeashwin" target="_blank">Linkedin</a> | <a href="https://twitter.com/hegdeashwin3" target="_blank">Twitter</a>
 
 Visit the following link to know about Backbone current training updates<br>
-Home: <a href="https://github.com/hegdeashwin/Backbone" target="_blank">https://github.com/hegdeashwin/Backbone</a>
-  
+Home: <a href="https://github.com/hegdeashwin/Backbone#change-log" target="_blank">https://github.com/hegdeashwin/Backbone#change-log</a>
+
 If you find any typo errors, enhancements or questions; please feel free to log it on following link<br>
 Feedback: <a href="https://github.com/hegdeashwin/Backbone/issues" target="_blank">https://github.com/hegdeashwin/Backbone/issues</a>
 
