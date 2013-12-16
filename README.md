@@ -64,7 +64,7 @@ Change Log
 ==========
 > Release date: **December 16, 2013**
 ```
-1. Wiki - Added section on "List of useful blogs on Backbone.
+1. Wiki - Added section on "List of useful blogs" on Backbone.
 ```
 
 > Release date: **October 22, 2013**
