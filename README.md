@@ -42,7 +42,7 @@ You can used any text editor which ever you are comfortable with on any operatin
 But when it comes to JavaScript based project I personally recommend the following editors
 as per the priority.
 <ul>
-  <li>Sublime Text 2 or above</li>
+  <li>Sublime Text 3 or above</li>
   <li>Notepad++</li>
   <li>Microsoft Visual Studio</li>
   <li>Adobe Dreamweaver</li>
