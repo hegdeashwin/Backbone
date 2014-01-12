@@ -62,6 +62,11 @@ Development tools
 
 Change Log
 ==========
+> Release date: **January 12, 2014**
+```
+1. Examples - Added Google API Key. to use Google Map API v3 Services. Optimize _.object to native object way.
+```
+
 > Release date: **January 08, 2014**
 ```
 1. Issues - Updated existing issues list.
