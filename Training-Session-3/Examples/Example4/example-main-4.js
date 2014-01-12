@@ -13,18 +13,17 @@
 		url: function() {
 			return "http://maps.googleapis.com/maps/api/directions/json?origin=Pune&destination=Mumbai&sensor=false";
 		},
+
 		parse: function(response) {
 			var object = {};
 
 			_.each(response.routes, function(data){
-				object = _.object([
-					"ne_lat","ne_lng","sw_lat","sw_lng"
-				],[
-					data.bounds.northeast.lat,
-					data.bounds.northeast.lng,
-					data.bounds.southwest.lat,
-					data.bounds.southwest.lng
-				]);
+				object = {
+					"ne_lat": data.bounds.northeast.lat,
+					"ne_lng": data.bounds.northeast.lng,
+					"sw_lat": data.bounds.southwest.lat,
+					"sw_lng": data.bounds.southwest.lng
+				};
 			});
 
 			return object;
