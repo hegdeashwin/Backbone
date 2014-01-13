@@ -11,6 +11,12 @@
 
 	var MasterModel = Backbone.Model.extend({
 		url: function() {
+			/*
+				This Example will give cross-domain issue error.
+				Can't use following Service URI
+				http://maps.googleapis.com/maps/api/directions/json?origin=Pune&destination=Mumbai&sensor=false
+				directly. As this got updated from Google Map API v3.
+			*/
 			return 'http://maps.googleapis.com/maps/api/directions/json?origin='+this.get('origin')+'&destination='+this.get('destination')+'&sensor='+this.get('sensor');
 		},
 		parse: function(response) {
