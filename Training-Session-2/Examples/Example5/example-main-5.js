@@ -16,7 +16,12 @@
 	var MasterModel = Backbone.Model.extend({
 
 		url: function() {
-			return 'http://maps.googleapis.com/maps/api/directions/' + this.get('dataFormat') +'?origin='+this.get('origin')+'&destination='+this.get('destination')+'&sensor='+this.get('sensor')
+			/*
+    			Can't use following Service URI
+   				http://maps.googleapis.com/maps/api/directions/json?origin=Pune&destination=Mumbai&sensor=false
+    			directly. As this got updated from Google Map API v3.
+    		*/
+			return 'http://maps.googleapis.com/maps/api/directions/' + this.get('dataFormat') + '?origin=' + this.get('origin') + '&destination=' + this.get('destination') + '&sensor=' + this.get('sensor');
 		},
 
 		parse: function(response) {

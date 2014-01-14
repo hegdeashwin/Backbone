@@ -18,7 +18,12 @@
 		},
 
 		url: function() {
-			return "http://maps.googleapis.com/maps/api/directions/json?origin=Pune&destination=Mumbai&sensor=false";
+			/*
+    			Can't use following Service URI
+   				http://maps.googleapis.com/maps/api/directions/json?origin=Pune&destination=Mumbai&sensor=false
+    			directly. As this got updated from Google Map API v3.
+    		*/
+			return "../../../js/google-map-api.json";
 		}
 	});
 
