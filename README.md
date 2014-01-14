@@ -71,7 +71,7 @@ Change Log - Shows what a particular release does.
 ```
 1. Examples - 
    1.1 Adds local JSON Google Map API file to use as services. 
-   1.2 Also Removes _.object to native object way.
+   1.2 Removes _.object to native object way.
 ```
 
 > Release date: **January 08, 2014**
