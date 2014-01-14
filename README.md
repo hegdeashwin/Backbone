@@ -60,8 +60,10 @@ Development tools
   </dd>
 </dl>
 
-Change Log - Shows what a particular release does.
-==================================================
+Change Log
+==========
+<h5>Shows what a particular release does.</h5>
+
 > Release date: **January 14, 2014**
 ```
 1. Examples - Fixes few examples bugs.
