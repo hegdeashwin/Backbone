@@ -60,34 +60,39 @@ Development tools
   </dd>
 </dl>
 
-Change Log
-==========
+Change Log - Shows what a particular release does.
+==================================================
+> Release date: **January 14, 2014**
+```
+1. Examples - Fixes few examples bugs.
+```
+
 > Release date: **January 12, 2014**
 ```
-1. Examples - Added Google API Key. to use Google Map API v3 Services. Optimize _.object to native object way.
+1. Examples - Adds local JSON Google Map API file to use as services. Also Removes _.object to native object way.
 ```
 
 > Release date: **January 08, 2014**
 ```
-1. Issues - Updated existing issues list.
+1. Issues - Updates existing issues list.
 ```
 
 > Release date: **December 16, 2013**
 ```
-1. Wiki - Added section on "List of useful blogs" on Backbone.
+1. Wiki - Adds section on "List of useful blogs" on Backbone.
 ```
 
 > Release date: **October 22, 2013**
 ```
-1. Training Session 5 - Added callback function to get current route in router example.
-2. JS - Updated backbone.js to version 1.1.0
+1. Training Session 5 - Adds callback function to get current route in router example.
+2. JS - Updates backbone.js to version 1.1.0
 ```
 
 > Release date: **September 16, 2013**
 ```
 1. Training Extended Session -
-   1.1 Added plugins example.
-   1.2 Added usage & implementation of Backbone-Deep-Model plugin.
+   1.1 Adds plugins example.
+   1.2 Adds usage & implementation of Backbone-Deep-Model plugin.
 ```
 
 
