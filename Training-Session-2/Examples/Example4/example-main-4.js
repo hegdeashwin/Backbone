@@ -23,6 +23,7 @@
 
 		    if (attrs.age < 18) {
 		      	console.log("Your age must be more then 18 years.");
+				return true;
 		    }
 		}
 	});
@@ -39,7 +40,7 @@
 	}, {
 		validate: true
 	});
-
+	
 	// masterModel.save({
 	// 	age: 25
 	// });
