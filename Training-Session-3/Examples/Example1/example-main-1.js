@@ -20,7 +20,7 @@
 		*/
 		initialize: function() {
 			console.log("Your View have been initialize.");
-		}
+		},
 
 		/*
 			Optional property, this property will let you set tagName's class name.
