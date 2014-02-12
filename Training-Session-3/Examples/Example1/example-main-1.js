@@ -80,7 +80,7 @@
 
 	/*
 		In child view, tabName is set to 'ul'. Thus override the default value for 'el'.
-		childView.el will display <ul id="master" class="container"></ul>
+		childView.el will display <ul id="child" class="container"></ul>
 	*/
 	console.log("'el' from child view: Here tabName is set to 'ul'. Thus override the default value for 'el'.");
 	console.log(childView.el);
