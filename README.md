@@ -105,6 +105,9 @@ Contributors
 Developed &amp; maintained by author: <b>Ashwin Hegde</b><br>
 Follow me at: <a href="https://github.com/hegdeashwin" target="_blank">github</a> | <a href="http://in.linkedin.com/in/hegdeashwin" target="_blank">Linkedin</a> | <a href="https://twitter.com/hegdeashwin3" target="_blank">Twitter</a>
 
+We really appreciate all kind of feedback and contributions. Thanks for using and supporting this project: 
+<a href="//github.com/hegdeashwin/Backbone/graphs/contributors" target="_blank">contributors</a>
+
 Visit the following link to know about Backbone current training updates<br>
 Home: <a href="https://github.com/hegdeashwin/Backbone#change-log" target="_blank">https://github.com/hegdeashwin/Backbone#change-log</a>
 
