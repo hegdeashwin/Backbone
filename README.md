@@ -63,6 +63,10 @@ Development tools
 Change Log
 ==========
 <h5>Shows what a particular release does.</h5>
+> Release date: **March 13, 2014**
+```
+1. README.MD - Updates license year.
+```
 
 > Release date: **January 14, 2014**
 ```
@@ -122,7 +126,7 @@ License
 =======
 The MIT License (MIT)
 
-Copyright (c) 2013 Ashwin Hegde
+Copyright (c) 2014 Ashwin Hegde
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
