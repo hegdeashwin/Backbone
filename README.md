@@ -51,18 +51,27 @@ as per the priority.
 Development tools
 =================
 <dl>
-  <dt>Backbone Eye, [ <a href="http://dhruvaray.github.io/spa-eye/" target="_blank">Home Site</a> | <a href="https://github.com/dhruvaray/spa-eye" target="_blank">Git Repository</a> ]</dt>
+  <dt>Backbone Eye, [ <a href="//dhruvaray.github.io/spa-eye/" target="_blank">Home Site</a> | <a href="https://github.com/dhruvaray/spa-eye" target="_blank">Git Repository</a> ]</dt>
   <dd>A Mozilla FIrefox - Firebug extension for debugging Backbone.js applications. A way to understand Backbone application behavior without wading through JavaScript code.
   </dd>
 
-  <dt>Backbone Debugger, [ <a href="https://github.com/Maluen/Backbone-Debugger" target="_blank">Git Repository</a> ]</dt>
+  <dt>Backbone Debugger, [ <a href="//github.com/Maluen/Backbone-Debugger" target="_blank">Git Repository</a> ]</dt>
   <dd>A Google Chrome - Developer Tools extension for debugging Backbone.js applications. Displays in real-time all the application views, models, collections and routers, with detailed information such as handled jQuery events, model attributes, collection models, sync status, events triggered and more.
+  </dd>
+  
+  <dt>Nebula, [ <a href="//github.com/hegdeashwin/Nebula" target="_blank">Git Repository</a> ]</dt>
+  <dd>An open source application skeleton for a typical Backbone web apps. You can use it to quickly bootstrap your Backbone web application projects.
   </dd>
 </dl>
 
 Change Log
 ==========
 <h5>Shows what a particular release does.</h5>
+> Release date: **March 27, 2014**
+```
+1. README.MD - Updates Development tools.
+```
+
 > Release date: **March 13, 2014**
 ```
 1. README.MD - Updates license year.
