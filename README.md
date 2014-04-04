@@ -43,6 +43,7 @@ But when it comes to JavaScript based project I personally recommend the followi
 as per the priority.
 <ul>
   <li>Sublime Text 3 or above</li>
+  <li>Bracket</li>
   <li>Notepad++</li>
   <li>Microsoft Visual Studio</li>
   <li>Adobe Dreamweaver</li>
@@ -67,6 +68,11 @@ Development tools
 Change Log
 ==========
 <h5>Shows what a particular release does.</h5>
+> Release date: **April 5, 2014**
+```
+1. README.MD - Updates Editor Section.
+```
+
 > Release date: **March 27, 2014**
 ```
 1. README.MD - Updates Development tools.
