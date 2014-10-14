@@ -63,11 +63,21 @@ Development tools
   <dt>Nebula, [ <a href="//github.com/hegdeashwin/Nebula" target="_blank">Git Repository</a> ]</dt>
   <dd>An open source application skeleton for a typical Backbone web apps. You can use it to quickly bootstrap your Backbone web application projects.
   </dd>
+  
+  <dt>Boneloop, [ <a href="//github.com/hegdeashwin/Boneloop" target="_blank">Git Repository</a> ]</dt>
+  <dd>An open source enterprise edition of Nebula based upon Backbone + Marionette - A scalable and composite application architecture for Backbone.js. It provides a client-[server]-side stack for building enterprise grade HTML5/Marionette applications. It could be used with any server side like Node.js, Ruby, PHP, JEE, Spring etc. By default it's server side environment comes with Node.js - Loopback (StrongLoop) stack.</dd>
 </dl>
+
 
 Change Log
 ==========
 <h5>Shows what a particular release does.</h5>
+
+> Release date: **October 10, 2014**
+```
+1. README.MD - Updates Development Tools Section.
+```
+
 > Release date: **April 5, 2014**
 ```
 1. README.MD - Updates Editor Section.
