@@ -1,12 +1,12 @@
-Structuring your web apps via Backbone.JS
-=========================================
+# Structuring your web apps via Backbone.JS
+
 This training kit has been developed for those who already have the basic knowledge of JavaScript & jQuery;
 As Backbone.JS is entirely written in JavaScript.
 
 This training kit will teach you the basics of Backbone.JS and introduction to advanced part.
 
-Prerequisites arranged as per the priority
-==========================================
+## Prerequisites arranged as per the priority
+
 <ul>
   <li>JavaScript</li>
   <li>jQuery</li>
@@ -15,8 +15,8 @@ Prerequisites arranged as per the priority
   <li>Basic understanding of web scripting</li>
 </ul>
 
-Training kit includes
-=====================
+## Training kit includes
+
 <ul>
   <li>Training Session <strong>1</strong>: <strong>Getting Started</strong>.</li>
   <li>Training Session <strong>2</strong>: <strong>Backbone Model</strong>.</li>
@@ -29,15 +29,15 @@ Training kit includes
   <li>For more information on Backbone's coding standards, plugins etc. Please visit <a href="https://github.com/hegdeashwin/Backbone/wiki" target="_blank">Backbone's training kit Github Wiki documentation</a></li>
 </ul>
 
-How to use training kit examples
-================================
+## How to use training kit examples
+
 Clone the repository and start running the examples in your browser and browse the codes with ready commits or
 you can also experiment with the code online which is powered by JSFiddle.
 
 <a href="https://github.com/hegdeashwin/Backbone/archive/master.zip" target="_blank">Download this repository</a> or <a href="http://jsfiddle.net/hegdeashwin/TKkMt/show/" target="_blank">Experiment online</a>
 
-Recommended text editor
-=======================
+## Recommended text editor
+
 You can used any text editor which ever you are comfortable with on any operating systems.
 But when it comes to JavaScript based project I personally recommend the following editors
 as per the priority.
@@ -49,8 +49,8 @@ as per the priority.
   <li>Adobe Dreamweaver</li>
 </ul>
 
-Development tools
-=================
+## Development tools
+
 <dl>
   <dt>Backbone Eye, [ <a href="//dhruvaray.github.io/spa-eye/" target="_blank">Home Site</a> | <a href="https://github.com/dhruvaray/spa-eye" target="_blank">Git Repository</a> ]</dt>
   <dd>A Mozilla FIrefox - Firebug extension for debugging Backbone.js applications. A way to understand Backbone application behavior without wading through JavaScript code.
@@ -69,68 +69,33 @@ Development tools
 </dl>
 
 
-Change Log
-==========
+## Change Log
+
 <h5>Shows what a particular release does.</h5>
 
-> Release date: **October 10, 2014**
+> Release date 2.0.0: from **March 16, 2015**
 ```
-1. README.MD - Updates Development Tools Section.
-```
-
-> Release date: **April 5, 2014**
-```
-1. README.MD - Updates Editor Section.
+  README.MD - Updates.
 ```
 
-> Release date: **March 27, 2014**
+> Release date 2.0.0: from **September 16, 2013** to **October 10, 2014**
 ```
-1. README.MD - Updates Development tools.
-```
-
-> Release date: **March 13, 2014**
-```
-1. README.MD - Updates license year.
-```
-
-> Release date: **January 14, 2014**
-```
-1. Examples - Fixes few examples bugs.
-```
-
-> Release date: **January 12, 2014**
-```
-1. Examples - 
-   1.1 Adds local JSON Google Map API file to use as services. 
-   1.2 Removes _.object to native object way.
+  README.MD - Updates.
+  Examples - Fixes few examples bugs.
+  Examples - 
+    6.1 Adds local JSON Google Map API file to use as services. 
+    6.2 Removes _.object to native object way.
+  Issues - Updates existing issues list.
+  Wiki - Adds section on "List of useful blogs" on Backbone.
+  Training Session 5 - Adds callback function to get current route in router example.
+  JS - Updates backbone.js to version 1.1.0
+  Training Extended Session -
+    1.1 Adds plugins example.
+    1.2 Adds usage & implementation of Backbone-Deep-Model plugin.
 ```
 
-> Release date: **January 08, 2014**
-```
-1. Issues - Updates existing issues list.
-```
+## Contributors
 
-> Release date: **December 16, 2013**
-```
-1. Wiki - Adds section on "List of useful blogs" on Backbone.
-```
-
-> Release date: **October 22, 2013**
-```
-1. Training Session 5 - Adds callback function to get current route in router example.
-2. JS - Updates backbone.js to version 1.1.0
-```
-
-> Release date: **September 16, 2013**
-```
-1. Training Extended Session -
-   1.1 Adds plugins example.
-   1.2 Adds usage & implementation of Backbone-Deep-Model plugin.
-```
-
-
-Contributors
-============
 Developed &amp; maintained by author: <b>Ashwin Hegde</b><br>
 Follow me at: <a href="https://github.com/hegdeashwin" target="_blank">github</a> | <a href="http://in.linkedin.com/in/hegdeashwin" target="_blank">Linkedin</a> | <a href="https://twitter.com/hegdeashwin3" target="_blank">Twitter</a>
 
@@ -147,11 +112,11 @@ Visit the following link to know about Backbone's development code in detail.<br
 <strong>Copyright &copy; 2010-2013 Jeremy Ashkenas</strong><br>
 Documentation: <a href="http://documentcloud.github.io/backbone/docs/backbone.html" target="_blank">http://documentcloud.github.io/backbone/docs/backbone.html</a>.
 
-License
-=======
+## License
+
 The MIT License (MIT)
 
-Copyright (c) 2014 Ashwin Hegde
+Copyright (c) 2015 Ashwin Hegde
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
