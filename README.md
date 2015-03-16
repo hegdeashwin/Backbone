@@ -73,7 +73,7 @@ as per the priority.
 
 <h5>Shows what a particular release does.</h5>
 
-> Release date 2.0.0: from **March 16, 2015**
+> Release date 2.0.1: from **March 16, 2015**
 ```
   README.MD - Updates.
 ```
