@@ -16,12 +16,12 @@
 	var MasterModel = Backbone.Model.extend({
 
 		url: function() {
-			/*
-    			Can't use following Service URI
-   				http://maps.googleapis.com/maps/api/directions/json?origin=Pune&destination=Mumbai&sensor=false
-    			directly. As this got updated from Google Map API v3.
-    		*/
-			return 'http://maps.googleapis.com/maps/api/directions/' + this.get('dataFormat') + '?origin=' + this.get('origin') + '&destination=' + this.get('destination') + '&sensor=' + this.get('sensor');
+
+			var _apiUrl = 'http://jsonplaceholder.typicode.com/users';
+			if (this.has('id')) {
+				_apiUrl = 'http://jsonplaceholder.typicode.com/users/' + this.get('id');
+			}
+			return _apiUrl;
 		},
 
 		parse: function(response) {
@@ -32,25 +32,36 @@
 		}
 	});
 
-	var masterModel = new MasterModel({
-		"dataFormat": "json",
-		"origin": "Pune",
-		"destination": "Mumbai",
-		"sensor": "false"
-	});
-	console.log(masterModel);
+	var masterModel1 = new MasterModel();
 
 	/*
-		Getting data from Google service api using Backbone Model fetch method.
+		Getting data using Backbone Model fetch method.
 	*/
-	masterModel.fetch({
+	masterModel1.fetch({
 		success: function() {
 			console.log("Data coming from fetch success: ");
-			console.log(masterModel.toJSON());
+			console.log(masterModel1.toJSON());
 		},
 		error: function() {
-			console.log("Some error triggered while accessing Google service api.");
+			console.log("Some error triggered while accessing service api.");
 		}
 	});
 
-})();
+	var masterModel2 = new MasterModel({
+		"id": 1
+	});
+
+	/*
+		Getting data using Backbone Model fetch method.
+	*/
+	masterModel2.fetch({
+		success: function() {
+			console.log("Data coming from fetch success: ");
+			console.log(masterModel2.toJSON());
+		},
+		error: function() {
+			console.log("Some error triggered while accessing service api.");
+		}
+	});
+
+})()
