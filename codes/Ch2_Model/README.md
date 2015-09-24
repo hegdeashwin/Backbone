@@ -1,26 +1,23 @@
-Training Session 2 - <br>Understanding Backbone Model 
-=====================================================
+# Ch2 - Understanding Backbone Model
 
-This training session includes the following listed out table of contents
+## Example 1:
+* Create Backbone Model
+* Create instance of Backbone Model
+* Setting & getting default attributes
+* Initialize a constructor
+* Setting & getting attributes
+* Get the list of all attributes
 
-<ol>
-  <li>Understanding Backbone Model
-    <ol>
-      <li>What is Backbone Model?</li>
-      <li>Create a Model class</li>
-      <li>Setting default attributes for the Model</li>
-      <li>Getting &amp; setting attributes</li>
-      <li>Removing attributes</li>
-      <li>Model &amp; attributes id</li>
-      <li>Operations on attributes &amp; model</li>      
-    </ol>
-  </li>
-  <li>Advance part of Backbone Model
-    <ol>
-      <li>Service URL</li>
-      <li>Operations on data</li>
-      <li>Server communication</li>     
-      <li>Data validation</li>
-    </ol>
-  </li>
-</ol>
+## Example 2:
+* Unset attribute
+* Cleaning all attributes
+* Check if attributes is set or not
+* Getting & Setting Model id
+
+## Example 3:
+* Access JSON data through URL method
+* Parse data
+* REST operations on JSON data
+
+## Example 4:
+* Attributes validation
