@@ -6,6 +6,7 @@
 	 * 3. Setting & getting default attributes
 	 * 4. Initialize a constructor
 	 * 5. Setting & getting attributes
+	 * 6. Get the list of all attributes
 	 */
 
 	/**
