@@ -21,3 +21,8 @@
 
 ## Example 4:
 * Attributes validation
+
+## Example 5:
+* Access 3rd parth service data through URL method
+* Setting attributes to URL;
+* Access attributes from within model
