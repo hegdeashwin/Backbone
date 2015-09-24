@@ -1,7 +1,7 @@
 (function() {
 	/**
 	 * The goal of this file is to provide the basic understanding of
-	 * 1. Removing attributes
+	 * 1. Unset attribute
 	 * 2. Cleaning all attributes
 	 * 3. Setting & getting default attributes
 	 * 4. Initialize a constructor

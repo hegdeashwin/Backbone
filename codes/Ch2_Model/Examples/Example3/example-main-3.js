@@ -1,66 +1,84 @@
 (function() {
-	/*
-		The goal of this file is to provide the basic understanding
-		1. Services URL.
-		2. Operations on data.
-		3. Server communication.
+	/**
+	 * The goal of this file is to provide the basic understanding of
+	 * 1. Access JSON data through URL method
+	 * 2. Parse data
+	 * 3. REST operations on JSON data
+	 */
 
-		How to run this example.
-		1. Open Example-3.html in Google Chrome browser.
-		2. Press F12, go to console tab.
-		3. See the message get displayed on that console tab.
-	*/
-
-	/*
-		Creating a new model called MasterModel by extending Backbone.Model class.
-		Syntax: Backbone.Model.extend(properties, [classProperties])
-	*/
+	/**
+	 * Creating a new model called MasterModel by extending Backbone.Model class
+	 * Syntax: Backbone.Model.extend(properties, [classProperties])
+	 */
 	var MasterModel = Backbone.Model.extend({
+
+		/**
+		 * Whenever 'fetch | save | destroy' is called URL function is needed else it will through error.
+		 */
 		url: function() {
-			/*
-    			Can't use following Service URI
-   				http://maps.googleapis.com/maps/api/directions/json?origin=Pune&destination=Mumbai&sensor=false
-    			directly. As this got updated from Google Map API v3.
-    		*/
 			return "../../../js/google-map-api.json";
-		}
-		,
+		},
+
+		/**
+		 * This function gets called automatically if its present in the model; this function helps to parse the
+		 * data and return it to model instance; it takes response as argument and it needs to be return else
+		 * it will return undefined
+		 */
 		parse: function(response) {
 			console.log("Parse response: ");
 			console.log(response);
 
-			return response; // This is require else response will be blank.
+			return response;
 		}
 	});
 
 	var masterModel = new MasterModel();
 	console.log(masterModel);
 
-	/*
-		Getting data from Google service api using Backbone Model fetch method.
-	*/
+	/**
+	 * Getting data from Model fetch method.
+	 */
 	masterModel.fetch({
 		success: function() {
 			console.log("Data coming from fetch success: ");
 			console.log(masterModel.toJSON());
 		},
 		error: function() {
-			console.log("Some error triggered while accessing Google service api.");
+			console.log("Some error triggered while accessing data service api.");
 		}
 	});
 
-	masterModel.set({firstName: 'Ashwin', lastName: 'Hegde'});
+	masterModel.set({
+		firstName: 'Ashwin',
+		lastName: 'Hegde'
+	});
 
-	/*
-		Save data from Google service api using Backbone Model save method.
-		But, this won't work because Google service api is not supporting POST, PUT operations.
-	*/
-	// masterModel.save({});
+	/**
+	 * Save data to your Model; execute REST POST, PUT operations
+	 * Below is only to show 'save' syntax;
+	 */
+	// masterModel.save(masterModel.toJSON(), {
+	// 	success: function() {
+	// 		console.log("Data coming from fetch success: ");
+	// 		console.log(masterModel.toJSON());
+	// 	},
+	// 	error: function() {
+	// 		console.log("Some error triggered while accessing Google service api.");
+	// 	}
+	// });
 
-	/*
-		Delete data from Google service api using Backbone Model destroy method.
-		But, this won't work because Google service api is not supporting DELETE operation.
-	*/
-	// masterModel.destroy({});
+	/**
+	 * Delete data from your Model; execute REST DELETE operation
+	 * Below is only to show 'destroy' syntax;
+	 */
+	// masterModel.destroy(masterModel.toJSON(), {
+	// 	success: function() {
+	// 		console.log("Data coming from fetch success: ");
+	// 		console.log(masterModel.toJSON());
+	// 	},
+	// 	error: function() {
+	// 		console.log("Some error triggered while accessing Google service api.");
+	// 	}
+	// });
 
 })();
