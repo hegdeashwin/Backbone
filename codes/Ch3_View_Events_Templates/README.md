@@ -1,24 +1,56 @@
-Training Session 3 - <br>Understanding Backbone <br>View, Events &amp; Templates
-============================================================================
+# Ch3 - Understanding Backbone View, Events, Templating
 
-This training session includes the following listed out table of contents
+## View
 
-<ol>
-  <li>Understanding Backbone View
-    <ol>
-      <li>What is Backbone View?</li>
-      <li>Create a View class</li>
-      <li>Reference with DOM</li>
-      <li>Templating</li>
-      <li>Data rendering</li>      
-    </ol>
-  </li>
-  <li>Understanding Events
-    <ol>
-      <li>Events hash</li>
-      <li>Setting &amp; triggering custom events</li>
-      <li>Backbone's events</li>
-      <li>Events handling in Model</li>   
-    </ol>
-  </li>
-</ol>
+### Example 1:
+* Create Backbone View
+* Create instance of Backbone View
+* Setting default `el` reference
+* Setting classname, id and tagname
+* Setting custom el reference
+
+## Templating
+
+### Example 1:
+* Setting DOM reference using `el`
+* Compiling Underscore template
+* Injecting data to template
+* Using this.$el to render template
+
+### Example 2:
+* Using model for data
+* Using model instance from within view constructor
+* Parsing data in model
+* Rendering underscore template
+
+### Example 3:
+* Using model for data with id
+
+## Events
+
+### Example 1:
+* Define events hash
+* Define event scope for View using el DOM reference
+
+### Example 2:
+* Remove view from DOM.
+
+### Example 3:
+* Subscribe/Unsubscribe a custom event
+* Subscribe a custom event onces
+* Trigger a subscribed event
+
+### Example 4:
+*
+*
+*
+
+### Example 5:
+*
+*
+*
+
+### Example 6:
+*
+*
+*

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Example 1: Backbone Events</title>
+	</head>
+	<body>
+		<h1>Ch 3: Understanding Backbone Events<h1>
+		<h2>How to run this example?</h2>
+		<ol>
+			<li>Open Example-1.html in browser.</li>
+			<li>Press F12, go to console tab.</li>
+		</ol>
+		
+		<div class="container">
+			<div class="scope">
+				<input type="button" class="btn btn-error" value="Click out of scope"/>
+			</div><br>
+			<div class="workspace">
+				<input type="submit" class="btn btn-primary" value="Click in scope"/>
+			</div>
+		</div>
+
+		<!-- Step 1:
+			Include jQuery, Here the jQuery is included with in js directory,
+		    Thus the relative path for the file becomes ../../../js/jquery-min.js.
+
+		    IMPORTANT NOTE:
+		    Backbone.JS has light dependence on jQuery for DOM manipulation.
+		-->
+		<script src="../../../js/jquery-min.js" type="text/javascript"></script>
+
+		<!-- Step 2:
+			Include Underscore, Here the Underscore is included with in js directory,
+			Thus the relative path for the file becomes ../../../js/underscore-min.js
+
+			IMPORTANT NOTE:
+			Underscore.js should always included before Backbone.JS.
+			else Browser console will show error, because Backbone’s only dependency is Underscore.js
+		-->
+		<script src="../../../js/underscore-min.js" type="text/javascript"></script>
+
+		<!-- Step 3:
+			Include Backbone, Here the Backbone is included with in js directory,
+			Thus the relative path for the file becomes ../../../js/backbone.js
+		-->
+		<script src="../../../js/backbone-min.js" type="text/javascript"></script>
+
+		<!-- Step 4:
+			Include example-main-1.js, Here the example-main-1.js is included with in js directory,
+			Thus the relative path for the file becomes example-main-1.js.
+
+			NOTE: example-main-1.js is custom user defined file.
+			You can change its name as per your requirements.
+
+			example-main-1.js is where your application begins.
+			You should customize it in order to initialize your views, models, collections and routers.
+		-->
+		<script src="example-main-1.js"></script>
+	</body>
+</html>
