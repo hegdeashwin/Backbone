@@ -33,14 +33,12 @@
 * Define event scope for View using el DOM reference
 
 ### Example 2:
-*
-*
-*
+* Remove view from DOM.
 
 ### Example 3:
-*
-*
-*
+* Subscribe/Unsubscribe a custom event
+* Subscribe a custom event onces
+* Trigger a subscribed event
 
 ### Example 4:
 *

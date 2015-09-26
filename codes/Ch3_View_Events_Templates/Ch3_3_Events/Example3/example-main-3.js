@@ -1,8 +1,8 @@
 (function() {
 	/**
 	 * The goal of this file is to provide the basic understanding of
-	 * 1. Subscribe/Unsubscribe a custom event
-	 * 2. Subscribe a custom event onces
+	 * 1. Old way to Subscribe/Unsubscribe a custom event
+	 * 2. Old way to Subscribe a custom event onces
 	 * 3. Trigger a subscribed event
 	 */
 
@@ -25,7 +25,7 @@
 		},
 
 		doSomethingOnce: function(name) {
-			console.log("Good Evening, " + name);
+			console.log("Good Morning, " + name);
 		},
 
 		el: '.workspace',
