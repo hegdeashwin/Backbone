@@ -1,20 +1,16 @@
-Training Session 4 - <br>Understanding Backbone Collection
-==========================================================
+# Ch3 - Understanding Backbone Collection
 
-This training session includes the following listed out table of contents
+## Example 1:
+* Create a Collection
+* Passing Model to Collection
+* Setting build-in Collection events
+* Add/Remove Model from collection at the end
+* Add/Remove Model from collection at the start
+* Get the length of collection
 
-<ol>
-  <li>Understanding Backbone Collection
-    <ol>
-      <li>What is Backbone Collection?</li>
-      <li>Create a Collection class</li>
-      <li>Adding Model &amp; firing Collection events</li>       
-    </ol>
-  </li>
-   <li>Advance part of Backbone Collection
-    <ol>
-      <li>Operations on Data</li>
-      <li>Sorting Data</li>
-    </ol>
-  </li>
-</ol>
+## Example 2:
+* Using pluck
+* Using where
+
+## Example 3:
+* Sorting data & respected events
