@@ -1,8 +1,8 @@
 (function() {
 	/**
 	 * The goal of this file is to provide the basic understanding of
-	 * Define events hash
-	 * Define event scope for View using el DOM reference
+	 * 1. Define events hash
+	 * 2. Define event scope for View using el DOM reference
 	 */
 
 	var MasterView = Backbone.View.extend({
