@@ -1,22 +1,22 @@
-# Structuring your web apps via Backbone.JS
+# Structuring your web apps with Backbone.js
 
-This training kit has been developed for those who already have the basic knowledge of JavaScript & jQuery;
-As Backbone.JS is entirely written in JavaScript.
+This training kit has been developed for those who
+* Already have the basic knowledge of JavaScript & jQuery;
+* Who wants to write JavaScript in a structured/pattern way;
 
-This training kit will teach you the basics of Backbone.JS and introduction to advanced part.
+This training kit will teach you the basics of Backbone.js and introduction to advanced part;
 
 ## Prerequisites arranged as per the priority
-
 * JavaScript, jQuery, Underscore.
-* Basic understanding of web scripting.
+* Basic understanding of web development concepts like functional programming, templating etc.
 
 ## Training kit includes below session
-* Ch 0 : Getting Started.
-* Ch 1 : Backbone Model.
-* Ch 2 : Backbone View, Events &amp; Templates.
-* Ch 3 : Backbone Collection.
-* Ch 4 : Backbone Router.
-* Ch 5 : Application DEMO & Plugin examples.
+* Ch 1 : Getting Started.
+* Ch 2 : Backbone Model.
+* Ch 3 : Backbone View, Events & Templates.
+* Ch 4 : Backbone Collection.
+* Ch 5 : Backbone Router.
+* Ch 6 : Application DEMO & Plugin examples.
 
 * For more information on Backbone's coding standards, plugins etc. Please visit <a href="https://github.com/hegdeashwin/Backbone/wiki" target="_blank">Backbone's training kit Github Wiki documentation</a>
 
@@ -62,53 +62,18 @@ as per the priority.
   <dd>An open source enterprise edition of Nebula based upon Backbone + Marionette - A scalable and composite application architecture for Backbone.js. It provides a client-[server]-side stack for building enterprise grade HTML5/Marionette applications. It could be used with any server side like Node.js, Ruby, PHP, JEE, Spring etc. By default it's server side environment comes with Node.js - Loopback (StrongLoop) stack.</dd>
 </dl>
 
-
-## Change Log
-
-<h5>Shows what a particular release does.</h5>
-
-> Release date 2.0.2: from **August 09, 2015**
-```
-  README.MD - Updates.
-  Examples - Re-factor directory structure.
-```
-
-> Release date 2.0.1: from **March 16, 2015**
-```
-  README.MD - Updates.
-```
-
-> Release date 2.0.0: from **September 16, 2013** to **October 10, 2014**
-```
-  README.MD - Updates.
-  Examples - Fixes few examples bugs.
-  Examples - 
-    6.1 Adds local JSON Google Map API file to use as services. 
-    6.2 Removes _.object to native object way.
-  Issues - Updates existing issues list.
-  Wiki - Adds section on "List of useful blogs" on Backbone.
-  Training Session 5 - Adds callback function to get current route in router example.
-  JS - Updates backbone.js to version 1.1.0
-  Training Extended Session -
-    1.1 Adds plugins example.
-    1.2 Adds usage & implementation of Backbone-Deep-Model plugin.
-```
-
 ## Contributors
 
-Developed &amp; maintained by author: <b>Ashwin Hegde</b><br>
+Developed & maintained by author: <b>Ashwin Hegde</b>
 
 We really appreciate all kind of feedback and contributions. Thanks for using and supporting this project: 
 <a href="//github.com/hegdeashwin/Backbone/graphs/contributors" target="_blank">contributors</a>
-
-Visit the following link to know about Backbone current training updates<br>
-Home: <a href="https://github.com/hegdeashwin/Backbone#change-log" target="_blank">https://github.com/hegdeashwin/Backbone#change-log</a>
 
 To request a feature or you find any typo errors, enhancements or questions; please feel free to post it on following link, or vote for the ones that are already registered.
 <br>Tracking: <a href="https://github.com/hegdeashwin/Backbone/issues" target="_blank">https://github.com/hegdeashwin/Backbone/issues</a>
 
 Visit the following link to know about Backbone's development code in detail.<br>
-<strong>Copyright &copy; 2010-2013 Jeremy Ashkenas</strong><br>
+<strong>Copyright & 2010-2013 Jeremy Ashkenas</strong><br>
 Documentation: <a href="http://documentcloud.github.io/backbone/docs/backbone.html" target="_blank">http://documentcloud.github.io/backbone/docs/backbone.html</a>.
 
 ## License
