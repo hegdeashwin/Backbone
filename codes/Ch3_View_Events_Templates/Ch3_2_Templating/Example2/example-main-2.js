@@ -1,45 +1,35 @@
 (function() {
-	/*
-		The goal of this file is to provide the basic understanding
-		1. Passing attributes to Underscore Micro Templates.
-
-		How to run this example.
-		1. Open Example-1.html in Google Chrome browser.
-		2. Press F12, go to console tab.
-		3. See the message get displayed on that console tab.
-	*/
+	/**
+	 * The goal of this file is to provide the basic understanding of
+	 * 1. Using model for data
+	 * 2. Using model instance from within view constructor
+	 * 3. Parsing data in model
+	 * 4. Rendering underscore template
+	 */
 
 	var MasterModel = Backbone.Model.extend({
-		
+
 		url: function() {
-			/*
-				Can't use following Service URI
-				http://maps.googleapis.com/maps/api/directions/json?origin=Pune&destination=Mumbai&sensor=false
-				directly. As this got updated from Google Map API v3.
-			*/
-			return "../../../js/google-map-api.json";
+			return 'http://jsonplaceholder.typicode.com/users';
 		},
 
 		parse: function(response) {
-			var object = {};
+			var minInfo = [];
 
-			_.each(response.routes, function(data){
-				object = {
-					"ne_lat": data.bounds.northeast.lat,
-					"ne_lng": data.bounds.northeast.lng,
-					"sw_lat": data.bounds.southwest.lat,
-					"sw_lng": data.bounds.southwest.lng
-				};
+			_.each(response, function(data) {
+				minInfo.push({
+					"name": data.name,
+					"email": data.email,
+					"website": data.website
+				});
 			});
 
-			return object;
+			console.log('Parsed Data: ', minInfo);
+
+			return minInfo;
 		}
 	});
 
-	/*
-		Creating a new View called MasterView by extending Backbone.View class.
-		Syntax: Backbone.View.extend(properties, [classProperties])
-	*/
 	var MasterView = Backbone.View.extend({
 
 		initialize: function() {
@@ -51,31 +41,31 @@
 
 		template: _.template($("#routesTable").html()),
 
-		/*
-			This is the view's render function; Used to render data.
-		*/
 		render: function() {
 			var self = this;
 
 			this.model.fetch({
 				success: function() {
-					console.log("Google service api is working well.");
 					console.log(self.model.toJSON());
-					self.$el.html(self.template(self.model.toJSON()));
+
+					/**
+					 * Passing key:value data to template and template to DOM
+					 */
+					self.$el.html(self.template({
+						data: self.model.toJSON()
+					}));
 				},
 				error: function() {
-					console.log("Some error got triggered while accessing Google service api.");
+					console.log("Some error got triggered while accessing service api.");
 				}
 			});
+
+			return this;
 		}
 
 	});
 
-	/*
-		Creating an object from MasterView which calls initialize function.
-	*/
 	var masterView = new MasterView();
-
 	console.log(masterView.el);
 
 })();
