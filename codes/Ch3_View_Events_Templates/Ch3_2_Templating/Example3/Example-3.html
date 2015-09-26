@@ -15,32 +15,26 @@
 		<div class="container">
 			<div class="row" id="directionApi">
 				<script type="text/template" id="routesTable">
-					<table class="table table-bordered">
+					<table border="1">
 				        <thead>
-				          <tr>
-				            <th>Routes</th>
-				            <th>Bounds</th>
-				          </tr>
+				         	<tr>
+								<th>Name</th>
+								<th>Email</th>
+								<th>Website</th>
+								<th>Email</th>
+								<th>Website</th>
+								<th>Company</th>
+							</tr>
 				        </thead>
 				        <tbody>
-				          <tr>
-				            <td rowspan="2">North East</td>
-				            <td calspan="2">Latitude</td>
-				            <td><%= ne_lat %></td>
-				          </tr>
-				          <tr>
-				            <td>Longitude</td>
-				            <td><%= ne_lng %></td>
-				          </tr>
-				          <tr>
-				            <td rowspan="2">South West</td>
-				            <td>Latitude</td>
-				            <td><%= sw_lat %></td>
-				          </tr>
-				          <tr>
-				            <td>Longitude</td>
-				            <td><%= sw_lng %></td>
-				          </tr>
+			          		<tr> 
+							    <td><%= name %></td>
+							    <td><%= email %></td>
+							    <td><%= website %></td>
+							    <td><%= phone %></td>
+							    <td><%= username %></td>
+							    <td><%= company.bs %></td>
+							</tr>
 				        </tbody>
 				    </table>
 			    </script>
