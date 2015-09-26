@@ -41,16 +41,6 @@
 * Trigger a subscribed event
 
 ### Example 4:
-*
-*
-*
-
-### Example 5:
-*
-*
-*
-
-### Example 6:
-*
-*
-*
+* New way to Subscribe/Unsubscribe a custom event
+* New way to Subscribe a custom event onces
+* Trigger a subscribed event
