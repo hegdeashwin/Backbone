@@ -42,26 +42,20 @@ as per the priority.
 
 ## Development tools
 
-<dl>
-  <dt>Backbone Eye, [Home Site](//dhruvaray.github.io/spa-eye/) | [Git Repository](https://github.com/dhruvaray/spa-eye)</dt>
-  <dd>A Mozilla FIrefox - Firebug extension for debugging Backbone.js applications. A way to understand Backbone application behavior without wading through JavaScript code.
-  </dd>
+* Backbone Eye, [Home Site](//dhruvaray.github.io/spa-eye/) | [Git Repository](https://github.com/dhruvaray/spa-eye)
+A Mozilla FIrefox - Firebug extension for debugging Backbone.js applications. A way to understand Backbone application behavior without wading through JavaScript code.
 
-  <dt>Backbone Debugger, [Git Repository](//github.com/Maluen/Backbone-Debugger)</dt>
-  <dd>A Google Chrome - Developer Tools extension for debugging Backbone.js applications. Displays in real-time all the application views, models, collections and routers, with detailed information such as handled jQuery events, model attributes, collection models, sync status, events triggered and more.
-  </dd>
+* Backbone Debugger, [Git Repository](//github.com/Maluen/Backbone-Debugger)
+A Google Chrome - Developer Tools extension for debugging Backbone.js applications. Displays in real-time all the application views, models, collections and routers, with detailed information such as handled jQuery events, model attributes, collection models, sync status, events triggered and more.
 
-  <dt>Nebula, [Git Repository](//github.com/hegdeashwin/Nebula)</dt>
-  <dd>An open source application skeleton for a typical Backbone web apps. You can use it to quickly bootstrap your Backbone web application projects.
-  </dd>
+* Nebula, [Git Repository](//github.com/hegdeashwin/Nebula)
+An open source application skeleton for a typical Backbone web apps. You can use it to quickly bootstrap your Backbone web application projects.
 
-  <dt>Nebula-cli, [Git Repository](//github.com/hegdeashwin/Nebula-cli)</dt>
-  <dd>Nebula-cli is a command line generator for Nebula. This tool will help to generate a walking application skeleton for a typical Backbone web apps. You can use it to quickly bootstrap your Backbone web application projects.
-  </dd>
+* Nebula-cli, [Git Repository](//github.com/hegdeashwin/Nebula-cli)
+Nebula-cli is a command line generator for Nebula. This tool will help to generate a walking application skeleton for a typical Backbone web apps. You can use it to quickly bootstrap your Backbone web application projects.
 
-  <dt>Boneloop, [Git Repository](//github.com/hegdeashwin/Boneloop)</dt>
-  <dd>An open source enterprise edition of Nebula based upon Backbone + Marionette - A scalable and composite application architecture for Backbone.js. It provides a client-[server]-side stack for building enterprise grade HTML5/Marionette applications. It could be used with any server side like Node.js, Ruby, PHP, JEE, Spring etc. By default it's server side environment comes with Node.js - Loopback (StrongLoop) stack.</dd>
-</dl>
+* Boneloop, [Git Repository](//github.com/hegdeashwin/Boneloop)
+An open source enterprise edition of Nebula based upon Backbone + Marionette - A scalable and composite application architecture for Backbone.js. It provides a client-[server]-side stack for building enterprise grade HTML5/Marionette applications. It could be used with any server side like Node.js, Ruby, PHP, JEE, Spring etc. By default it's server side environment comes with Node.js - Loopback (StrongLoop) stack.
 
 ## Contributors
 
