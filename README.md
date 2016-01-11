@@ -57,6 +57,9 @@ Nebula-cli is a command line generator for Nebula. This tool will help to genera
 * Boneloop, [Git Repository](//github.com/hegdeashwin/Boneloop)
 An open source enterprise edition of Nebula based upon Backbone + Marionette - A scalable and composite application architecture for Backbone.js. It provides a client-[server]-side stack for building enterprise grade HTML5/Marionette applications. It could be used with any server side like Node.js, Ruby, PHP, JEE, Spring etc. By default it's server side environment comes with Node.js - Loopback (StrongLoop) stack.
 
+* Bonegear, [Git Repository](https://github.com/hegdeashwin/Bonegear)
+Bonegear is an open source UI components for your Backbone.js projects.
+
 ## Contributors
 
 Developed & maintained by author: <b>Ashwin Hegde</b>
