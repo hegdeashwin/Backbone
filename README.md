@@ -7,8 +7,8 @@ This training kit has been developed for those who
 This training kit will teach you the basics of Backbone.js and introduction to advanced part;
 
 ## Prerequisites arranged as per the priority
-* JavaScript, jQuery, Underscore.
 * Basic understanding of web development concepts like functional programming, templating etc.
+* JavaScript, jQuery, Underscore.
 
 > If you are already know & understand Backbone.js and want to learn Backbone.js Marionette framework then its strongly recommended to skip this training kit and jump to understand the basic to advanced of Backbone.js Marionette from the repository "[Learning Backbone Marionette](https://github.com/hegdeashwin/learning-backbone-marionette)"
 
@@ -62,19 +62,19 @@ Bonegear is an open source UI components for your Backbone.js projects.
 
 ## Contributors
 
-Developed & maintained by author: <b>Ashwin Hegde</b>
+Developed & maintained by author: Ashwin Hegde & [Contributors](//github.com/hegdeashwin/Backbone/graphs/contributors)
 
-We really appreciate all kind of feedback and contributions. Thanks for using and supporting this project:
-[Contributors](//github.com/hegdeashwin/Backbone/graphs/contributors)
+We really appreciate all kind of feedback and contributions. Thank you for using and supporting this project.
 
-To request a feature or you find any typo errors, enhancements or questions; please feel free to post it on following link, or vote for the ones that are already registered.
+To request a feature or you find any typo errors, enhancements or questions; please feel free to send a pull-request on "develop" branch or post it on following link, or vote for the ones that are already registered.
 
 [https://github.com/hegdeashwin/Backbone/issues](https://github.com/hegdeashwin/Backbone/issues)
 
-Visit the following link to know about Backbone's development code in detail.<br>
-*Copyright & 2010-2013 Jeremy Ashkenas*
+Visit the following link to know about:
 
-Documentation: [http://documentcloud.github.io/backbone/docs/backbone.html](http://documentcloud.github.io/backbone/docs/backbone.html)
+* [The annotated source code of Backbone.js.](http://backbonejs.org/docs/backbone.html)
+* [Online Test Suite](http://backbonejs.org/test/)
+* [The Real world Projects](http://backbonejs.org/#examples)
 
 ## License
 
