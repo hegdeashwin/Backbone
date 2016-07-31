@@ -13,29 +13,46 @@
 		 * model's validate method for attributes validation.
 		 */
 		validate: function(attrs, options) {
-			console.log("attrs: ", attrs);
-			console.log("options: ", options);
-
 			if (attrs.age < 18) {
-				console.log("Your age must be more then 18 years.");
+				this.trigger('error', "Your age must be more then 18 years.");
 				return true;
 			}
 		}
 	});
 
 	var masterModel = new MasterModel({
-		firstName: 'Ashwin',
-		lastName: 'Hegde'
+		name: 'Ashwin Hegde'
 	});
 
-	console.log(masterModel.toJSON());
+	masterModel.on('error', function(error) {
+		console.log("Error: ", error);
+	});
 
+	/**
+	 * This will not set age in the model, due to not passing validation '< 18'
+	 */
 	masterModel.set({
 		age: 15
 	}, {
 		validate: true
 	});
 
-	console.log(masterModel.toJSON());
+
+	/**
+	 * This will set age in the model, due to passing validation '< 18';
+	 * Uncomment below to see the model changes
+	 */
+		//
+		// masterModel.set({
+		// 	age: 20
+		// }, {
+		// 	validate: true
+		// });
+
+
+	/**
+	 * Let verify if age got set or not
+	 */
+	console.log('Master Model: ', masterModel.toJSON());
 
 })();
