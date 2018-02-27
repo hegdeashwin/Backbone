@@ -80,4 +80,4 @@ Visit the following link to know about:
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Ashwin Hegde
+Copyright (c) 2016-2018 Ashwin Hegde
