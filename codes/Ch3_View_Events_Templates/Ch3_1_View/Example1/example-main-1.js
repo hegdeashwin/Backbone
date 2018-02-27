@@ -71,7 +71,7 @@
 	var childView = new ChildView();
 
 	/**
-	 * childView.el will display <div id="child" class="row"></div>
+	 * childView.el will display <ul id="child" class="row"></ul>
 	 */
 	console.log(childView.el);
 
